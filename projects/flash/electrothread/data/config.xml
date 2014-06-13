@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<domains>
+		<domain id="root">
+			<live><![CDATA[]]></live>
+		</domain>
+		<domain id="data" domainId="root">
+			<live><![CDATA[data/]]></live>
+			<dev><![CDATA[data/]]></dev>
+		</domain>
+	</domains>
+	<styles>
+		<style id="script" font="DanielScript" size="70" autosize="left" color="0xF58220"/>
+		<style id="defaultButton" font="Helvetica" bold="true" size="10" autosize="left"/>
+		<style id="bigButton" font="Helvetica" bold="true" size="14" autosize="left"/>
+		<style id="cube" font="Helvetica" bold="true" size="10" autosize="left" leading="3"/>
+		<style id="smallCube" font="Helvetica" bold="true" size="8" autosize="left"/>
+		
+		<style id="big_header" font="Helvetica" bold="true" size="16" autosize="left"/>
+		<style id="header" font="Helvetica" bold="true" size="14" autosize="left" multiline="true" leading="3"/>
+		<style id="defaultText" font="Helvetica" size="10" autosize="left" multiline="true" leading="3"/>
+		<style id="videoheader" font="Helvetica" bold="true" size="10" autosize="left" color="0xFFFFFF"/>
+	    
+	    <style id="Helvetica" font="Helvetica"/>
+	    <style id="HelveticaBold" font="Helvetica" bold="true"/>
+	</styles>
+	
+	<translations domainId="data">
+		<textPath id="en">translation_en.xml</textPath>
+		<textPath id="fr">translation_fr.xml</textPath>
+	</translations>
+	
+	<services>
+		<service id="remind_me" domainId="root">
+			<url><![CDATA[services/remind_me.php]]></url>
+		</service>
+	</services>
+	
+	<content>
+		<target_date><![CDATA[06/04/2009 12:00:00]]></target_date>
+		<item>
+			<id>Video_Install_Art_Space</id>
+			<title>image_1_title</title>
+			<type>image</type>
+			<teaser>image_1_teaser</teaser>
+			<thumb>images/sml_grasso.jpg</thumb>
+			<xPos>70</xPos>
+			<yPos>600</yPos>
+			<pages>
+				<page>
+					<open_title>image_1_opentitle</open_title>
+					<image>
+						<header>image_1_1_imagetitle</header>
+						<text>image_1_1_text</text>
+						<path>images/laurent_grasso_portrait1_387x210.jpg</path>
+					</image>
+					<image>
+						<header>image_1_2_imagetitle</header>
+						<text></text>
+						<path>images/laurent_grasso_radi_1cf591_223x210.jpg</path>
+					</image>
+				</page>
+				<page>
+					<open_title>image_1_page_2_opentitle</open_title>
+					<image>
+						<header>image_1_page_2_1_imagetitle</header>
+						<text></text>
+						<path>images/laurent_grasso_4bra_387x210.jpg</path>
+					</image>
+					<image>
+						<header>image_1_page_2_2_imagetitle</header>
+						<text></text>
+						<path>images/laurent_grasso_radi_1cf4ef_223x210.jpg</path>
+					</image>
+				</page>
+			</pages>
+		</item>
+		<item>
+			<id>Gilles_Stassart</id>
+			<title>image_2_title</title>
+			<type>image</type>
+			<teaser>image_2_teaser</teaser>
+			<thumb>images/sml_stassart.jpg</thumb>
+			<xPos>40</xPos>
+			<yPos>1100</yPos>
+			<pages>
+				<page>
+					<open_title>image_2_opentitle</open_title>
+					<image>
+						<header>image_2_imagetitle</header>
+						<text>image_2_text</text>
+						<path>images/portrait_G_stassart_387x210.jpg</path>	
+					</image>
+					<image>
+						<header></header>
+						<text></text>
+						<path>images/cuillers_223x210.jpg</path>
+					</image>
+				</page>
+				<page>
+					<open_title>image_2_page_2_opentitle</open_title>
+					<image>
+						<header></header>
+						<text></text>
+						<path>images/cubes2_387x210.jpg</path>	
+					</image>
+					<image>
+						<header></header>
+						<text></text>
+						<path>images/couleurs_223x210.jpg</path>
+					</image>
+				</page>
+			</pages>
+		</item>
+		
+		<item>
+			<id>Video-PDT</id>
+			<title>video_1_title</title>
+			<open_title>video_1_opentitle</open_title>
+			<type>video</type>
+			<teaser><![CDATA[video_1_teaser]]></teaser>
+			<xPos>20</xPos>
+			<yPos>1600</yPos>
+			<video>
+				<path>video/electrolux_teaser.f4v</path>
+			</video>
+		</item>
+	</content>
+</config>
