@@ -1,0 +1,110 @@
+<campaign>
+	<country currency="DKK" decimalseparator=","
+		thousandsseparator="." ecom="True" devicefont="true" country="pt-BR" showprices="True" />
+		
+	<siteurls>
+		<siteurl key="productcatalog" url="Catalog.xml" />
+	</siteurls>
+	
+	<filters>
+		<filter>
+			<name>Charms</name>
+			<categories>05</categories>
+			<collections>exclude,04</collections>
+		</filter>
+		<filter>
+			<name>NecklacesPendants</name>
+			<categories>03</categories>
+			<collections>exclude,04</collections>
+		</filter>
+		<filter>
+			<name>Rings</name>
+			<categories>01</categories>
+			<collections>exclude,04</collections>
+		</filter>
+		<filter>
+			<name>Earrings</name>
+			<categories>02</categories>
+			<collections>exclude,04</collections>
+		</filter>
+		<filter>
+			<name>Bracelets</name>
+			<categories>04</categories>
+			<collections>exclude,04</collections>
+		</filter>
+		<filter>
+			<name>AllCategories</name>
+			<categories>01,02,03,04,05</categories>
+			<collections>exclude,04</collections>
+		</filter>
+	</filters>
+	
+	<inspiration>
+		<match>
+			<name>Midnight Oil</name>
+			<item1>150113GR</item1>
+			<item2>750359RU</item2>
+		</match>
+		<match>
+			<name>Arabesque</name>
+			<item1>750464</item1>
+			<item2>290616P</item2>
+		</match>
+		<match>
+			<name>Golden Eyes</name>
+			<item1>790298B</item1>
+			<item2>390163AM</item2>
+		</match>
+		<match>
+			<name>Midsummer Night</name>
+			<item1>250106D</item1>
+			<item2>790306</item2>
+		</match>
+	</inspiration>
+	
+	<texts>
+		<item key="Campaigns">
+			<item key="AddToWishlist"><![CDATA[Føj til ønskeseddel]]></item>
+			<item key="AddToBag"><![CDATA[Add to bag]]></item>
+			<item key="NotSoldOnline"><![CDATA[Not sold online]]></item>
+			<item key="FindYour"><![CDATA[Find Your]]></item>
+			<item key="PerfectMatch"><![CDATA[Perfect Match]]></item>
+			<item key="PerfectMatchInstructions">
+				<![CDATA[Combine the new bracelets, rings, necklaces, and earrings for an elegantly co-ordinated look. Be creative, express your personal style, and create a unique look]]>
+			</item>
+			<item key="ChooseJewellery">
+				<![CDATA[Choose a piece of jewellery]]>
+			</item>
+			<item key="Inspiration">
+				<![CDATA[Inspiration from the designers at PANDORA]]>
+			</item>
+			<item key="Charms">
+				<![CDATA[Charms]]>
+			</item>
+			<item key="NecklacesPendants">
+				<![CDATA[Necklaces]]>
+			</item>
+			<item key="Rings">
+				<![CDATA[Rings]]>
+			</item>
+			<item key="Earrings">
+				<![CDATA[Earrings]]>
+			</item>
+			<item key="Bracelets">
+				<![CDATA[Bracelets]]>
+			</item>
+			<item key="AllCategories">
+				<![CDATA[All Categories]]>
+			</item>
+			<item key="SelectCategory">
+				<![CDATA[Select Category]]>
+			</item>
+			<item key="TurnWheel">
+				<![CDATA[Drag to turn the wheel]]>
+			</item>
+			<item key="AddMatchToWishlist">
+				<![CDATA[Add Match To Wishlist]]>
+			</item>
+		</item>
+	</texts>
+</campaign>

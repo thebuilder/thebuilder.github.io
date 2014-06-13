@@ -1,0 +1,94 @@
+<campaign>
+	<country currency="DKK" decimalseparator=","
+		thousandsseparator="." ecom="True" devicefont="true" country="en-GB" showprices="True" />
+		
+	<siteurls>
+		<siteurl key="productcatalog" url="Catalog.xml" />
+		<siteurl key="privacy" url="http://www.pandora.net" />
+		<siteurl key="fullcollection" url="http://www.pandora.net" />
+		<siteurl key="necklacecollection" url="http://www.pandora.net" />
+	    <siteurl key="buildbracelet" url="http://www.pandora.net" />
+	    <siteurl key="pandoraclub" url="http://www.pandora.net/en-gb/pandora-club" />
+	</siteurls>
+	
+	<images>
+		<image key="universeheader" img="assets/headers/universeheader_en.png" />
+	</images>
+
+	<texts>
+		<item key="Campaigns">
+      <item key="AddToWishlist"><![CDATA[Føj til ønskeseddel]]></item>
+      <item key="AddToBag"><![CDATA[Tilføj til kurv]]></item>
+      <item key="NotSoldOnline"><![CDATA[Not sold online]]></item>
+      <item key="Done"><![CDATA[Done]]></item>
+      <item key="Older"><![CDATA[Older]]></item>
+      <item key="Newer"><![CDATA[Newer]]></item>
+      <item key="AUniversOfCharms"><![CDATA[A Universe<br/>of Charms]]></item>
+      <item key="ExploreTheSky"><![CDATA[Explore the sky Vel leo. Sed fringilla porta]]></item>
+      <item key="DedicateYourStar"><![CDATA[Dedicate<br/><font size="32">Your</font><br/>Star]]></item>
+      <item key="SeeTheFullAutumnWinterCollection"><![CDATA[See the full <font face="OptimaBold" size="19">Autumn/Winter</font> collection]]></item>
+      <item key="BuildYourOwnBracelet"><![CDATA[Build <font face="OptimaBold" size="19">your own</font> bracelet]]></item>
+      <item key="TheNewNecklaces"><![CDATA[The New Necklaces]]></item>
+      <item key="TheNewNecklacesBody"><![CDATA[Vel leo. Sed fringilla porta ligula egestas tincidunt. Nullam risus magna, ornare vitae varius eget. Praesent eget neque eu eros interdum malesuada vel leo.]]></item>
+      <item key="ClickAndSeeTheCharmsShining"><![CDATA[]]></item>
+      <item key="ChooseAStar"><![CDATA[]]></item>
+      <item key="ClickToGetStarted"><![CDATA[]]></item>
+      <item key="ChooseACharmForYourStar"><![CDATA[Choose a charm for your star]]></item>
+      <item key="DedicateThisStar"><![CDATA[]]></item>
+      <item key="ThisIsFor"><![CDATA[This is for]]></item>
+      <item key="YourMessage"><![CDATA[Your Message]]></item>
+      <item key="Max130Characters"><![CDATA[Max 130 Characters]]></item>
+      <item key="ShareYourStar"><![CDATA[Share your star]]></item>
+      <item key="ShareWithYourFriendsOnFacebook"><![CDATA[Share with your friends on Facebook]]></item>
+      <item key="YourPersonalMessage"><![CDATA[Your personal message]]></item>
+      <item key="ThisWillBeIncludedInTheEmail"><![CDATA[This will be included in the email]]></item>
+      <item key="ACopyOfEmailWillBeSentToYou"><![CDATA[A copy of the email will be sent to you]]></item>
+      <item key="YourStarIsShared"><![CDATA[Your star was shared]]></item>
+      <item key="JoinAndExploreNewCollections"><![CDATA[]]></item>
+      <item key="ShareYourPandoraWishlist"><![CDATA[]]></item>
+      <item key="AndGetExclusiveAccessToLimitedEditionJewellery"><![CDATA[]]></item>
+      <item key="JoinNowItsFree"><![CDATA[]]></item>
+      
+      <!-- New fields -->
+      <item key="UniverseSubtitle"><![CDATA[Vel leo. Sed fringilla porta ligula egestas tincidunt. Nullam risus magna, ornare vitae varius eget. Praesent eget neque eu eros interdum malesuada vel leo.]]></item>
+      <item key="UniverseBody"><![CDATA[Vel leo. Sed fringilla porta ligula egestas tincidunt. Nullam risus magna, ornare vitae varius eget. Praesent eget neque eu eros interdum malesuada vel leo.]]></item>
+      <item key="SeeTheEntireCollection"><![CDATA[See the entire collection]]></item>
+      <item key="WithLoveTo"><![CDATA[With love to xx]]></item>
+      
+      <item key="Cancel"><![CDATA[Cancel]]></item>
+      <item key="Save"><![CDATA[Save]]></item>
+      <item key="Share"><![CDATA[Share]]></item>
+      <item key="Or"><![CDATA[Or]]></item>
+      <item key="ThisIsYourStar"><![CDATA[This is your star]]></item>
+      <item key="PickACharmForYourStar"><![CDATA[Pick a charm for your star]]></item>
+      <item key="WriteYourDedication"><![CDATA[Write your dedication]]></item>
+      
+      <item key="YourName"><![CDATA[Your Name]]></item>
+      <item key="FriendsName"><![CDATA[Friends Name]]></item>
+      <item key="Name"><![CDATA[Name]]></item>
+      <item key="AcceptPrivacy"><![CDATA[Accept the <a href="http://www.pandora.net" target="_blank">privacy agreement</a>]]></item>
+
+      <item key="Email"><![CDATA[Email]]></item>
+      <item key="SendEmail"><![CDATA[Send Email]]></item>
+      <item key="From"><![CDATA[From]]></item>
+      <item key="To"><![CDATA[To]]></item>
+      <item key="LeaveANote"><![CDATA[LeaveANote]]></item>
+
+      <item key="WhatDoYouWantToDo"><![CDATA[What do you want to do]]></item>
+      <item key="PostToYourWall"><![CDATA[Post to your wall]]></item>
+      <item key="PostToFriendsWall"><![CDATA[Post to friends wall]]></item>
+      <item key="IDedicatedAStarTo"><![CDATA[I dedicated a star to {NAME}]]></item>
+      <item key="IDedicatedAStarMessage"><![CDATA[I dedicated a star to {NAME} on pandora.net.]]></item>
+      <item key="PandoraOnFacebook"><![CDATA[Pandora på Facebook]]></item>
+      <item key="SelectAFriend"><![CDATA[Select a friend]]></item>
+      <item key="EnterFriendName"><![CDATA[Enter friend name]]></item>
+
+      <item key="ExploreOurNewPieces"><![CDATA[Explore our new pieces <font face="OptimaBold">before everyone else</font>.<br/>Share your <font face="OptimaBold">PANDORA wish list</font>, <br/>and get access to <font face="OptimaBold">limited edition jewellery.</font>]]></item>
+      <item key="JoinNow"><![CDATA[Join Now]]></item>
+      <item key="ItsFree"><![CDATA[It's Free]]></item>
+      
+      
+      <item key="DedicateAnotherStar"><![CDATA[Dedicate<br/><font size="20">Another</font><br/>Star]]></item>
+    </item>
+	</texts>
+</campaign>

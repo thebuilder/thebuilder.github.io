@@ -1,0 +1,68 @@
+<campaign>
+	<country currency="DKK" decimalseparator="," thousandsseparator="." ecom="True" devicefont="true" country="en-GB" showprices="True" />
+		
+	<siteurls>
+		<siteurl key="productcatalog" url="Catalog.xml" />
+		<siteurl key="dictionary" url="http://assets.pandora.net/en-gb/global/dictionary" />
+	    <siteurl key="pandoraclub" url="http://www.pandora.net/en-gb/pandora-club" />
+	    <siteurl key="giftcard" url="https://giftcards.pandora.net/" />
+	    <siteurl key="findstore" url="http://www.pandora.net/da-dk/stores" />
+	    <siteurl key="valentinescollection" url="http://www.pandora.net/" />
+	</siteurls>
+	
+	<assets>
+		<LoaderMax name="assets" load="true" prependURLs="">
+			<SWFLoader name="font" url="assets/DefaultFonts.swf"
+				estimatedBytes="220000" />
+			<SWFLoader name="font_bickham" url="assets/Bickham.swf"
+				estimatedBytes="200000" />
+			<DataLoader name="css" url="assets/love_styles.css" format="text"
+				estimatedBytes="15000" />
+			<XMLLoader name="loveproducts" url="assets/love_products.xml" 
+				estimatedBytes="5000" />
+		</LoaderMax>
+	</assets>
+
+	<texts>
+		<item key="Campaigns">
+	      <item key="ShowYourLove"><![CDATA[Show Your Love]]></item>
+	      <item key="GoBack"><![CDATA[Go back]]></item>
+	      <item key="ToMyValentine"><![CDATA[To my Valentine]]></item>
+	      <item key="LoveAlways"><![CDATA[Love Always]]></item>
+	      <item key="John"><![CDATA[John]]></item>
+	      
+	      <item key="ChooseATitle"><![CDATA[Choose a title:]]></item>
+	      <item key="ChooseYourGift"><![CDATA[Choose your gift:]]></item>
+	      <item key="AddYourMessage"><![CDATA[Add your message:]]></item>
+	      <item key="WriteYourOwn"><![CDATA[Write your own]]></item>
+	      <item key="PreviewCard"><![CDATA[Preview card]]></item>
+	      <item key="ToMyValentine"><![CDATA[To my Valentine]]></item>
+	      <item key="PromiseHerPandora"><![CDATA[Promise her Pandora]]></item>
+	      <item key="AddAGiftCertificate"><![CDATA[Add a gift certificate]]></item>
+	      <item key="YoureTheOneForMe"><![CDATA[You’re The One For Me]]></item>
+	      <item key="MyDearestLove"><![CDATA[My Dearest Love]]></item>
+	      <item key="YourSmileYourSpirit"><![CDATA[Your smile, your spirit, your laughter, fill my heart with happiness.]]></item>
+	      <item key="YouAlwaysShine"><![CDATA[You always shine. Here’s something to make you sparkle. Happy Valentine’s.]]></item>
+	      <item key="YouAreOneOfAKind"><![CDATA[You are one of a kind. I couldn’t ask for more. I adore you in every way.]]></item>
+	      <item key="RecipientsFirstname"><![CDATA[Recipients Firstname:]]></item>
+	      <item key="YourFirstname"><![CDATA[Your Firstname:]]></item>
+	      <item key="WhatDoYouWantToPromiseHer"><![CDATA[What do you want to promise her?]]></item>
+	      <item key="FindingThePerfectGiftForHer"><![CDATA[Finding the perfect gift for her has never been this easy. Create your custom card and give her the promise of PANDORA. No disappointments. Last minute is ok. It's the ideal way to say Happy Valentine's Day.]]></item>
+	      <item key="CreateYourCustomCard"><![CDATA[Finding the perfect gift for her has never been this easy. Create your custom card and give her the promise of PANDORA.]]></item>
+	      <item key="GetStarted"><![CDATA[Get Started]]></item>
+	      <item key="SendTheCard"><![CDATA[Send the card]]></item>
+	      
+	      <item key="NameHasPromisedYou"><![CDATA[##NAME## has promised you ##PRODUCT## for valentines]]></item>
+
+	      <item key="AcceptPrivacy"><![CDATA[Accept the <a href="http://www.pandora.net" target="_blank">privacy agreement</a>]]></item>
+		  <item key="TermsAndConditions"><![CDATA[<a href="/sitecore/content/Consumer/pandora-company/terms" target="_blank">TERMS AND CONDITIONS</a>]]></item>
+
+	      <item key="ARing"><![CDATA[A ring]]></item>
+	      <item key="ANecklace"><![CDATA[A necklace]]></item>
+	      <item key="Earrings"><![CDATA[Earrings]]></item>
+	      <item key="ABraceletCharm"><![CDATA[A bracelet and charm]]></item>
+	      <item key="AWatch"><![CDATA[A watch]]></item>
+	      <item key="SomethingElseDontKnow"><![CDATA[Something else / Don't know]]></item>
+	    </item>
+	</texts>
+</campaign>

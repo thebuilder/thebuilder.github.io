@@ -1,0 +1,26 @@
+<products>
+	<product>
+		<id>ring</id>
+		<label>ARing</label>
+	</product>
+	<product>
+		<id>necklace</id>
+		<label>ANecklace</label>
+	</product>
+	<product>
+		<id>earring</id>
+		<label>Earrings</label>
+	</product>
+	<product>
+		<id>charm</id>
+		<label>ABraceletCharm</label>
+	</product>
+	<product>
+		<id>watch</id>
+		<label>AWatch</label>
+	</product>
+	<product>
+		<id>pandora</id>
+		<label>SomethingElseDontKnow</label>
+	</product>
+</products>

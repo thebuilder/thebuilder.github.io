@@ -1,0 +1,6 @@
+<starfield>
+	<xoffset>1000</xoffset> <!-- The location off the following stars on the screen. Offset their X position by this amount -->
+	
+	<star id="99" x="145" y="132" charm="itemNumber"/><!-- If charm exists, then a story can be retrieve for this star by calling the relevant service. -->
+	<star id="101" x="200" y="100" charm="itemNumber"/>
+</starfield>

@@ -1,0 +1,60 @@
+<campaign>
+	<country currency="DKK" decimalseparator=","
+		thousandsseparator="." ecom="True" devicefont="true" country="pt-BR" showprices="True" />
+		
+	<siteurls>
+		<siteurl key="productcatalog" url="Catalog.xml" />
+	    <siteurl key="necklacecollection" url="http://www.pandora.net" />
+	    <siteurl key="braceletcollection" url="http://www.pandora.net" />
+	</siteurls>
+	
+	<images>
+		<image key="videoheader" img="assets/headers/header_video_en.png" />
+	</images>
+	
+	<videos>
+		<video key="necklace" url="assets/video/bts_video.f4v" image="assets/video/video_thumb.jpg"/>
+		<video key="fashion" url="assets/video/bts_video.f4v" image="assets/video/video_thumb2.jpg"/>
+	</videos>
+
+	  <products>
+	    <clips>
+	      <product>791000</product>
+	      <product>791000BR</product>
+	      <product>791004</product>
+	      <product>791004BR</product>
+	      <product>791012OX</product>
+	      <product>790338</product>
+	      <product>790533</product>
+	      <product>790210</product>
+	      <product>790267</product>
+	      <product>790140</product>
+	    </clips>
+	  </products>
+	
+	<texts>
+		<item key="Campaigns">
+	      <item key="AddToWishlist"><![CDATA[Føj til ønskeseddel]]></item>
+	      <item key="AddToBag"><![CDATA[Tilføj til kurv]]></item>
+	      <item key="NotSoldOnline"><![CDATA[Not sold online]]></item>
+	      <item key="SeeTheFullCollection"><![CDATA[See The Full Collection]]></item>
+	      <item key="UseYourMouseToCombine"><![CDATA[]]></item>
+	      <item key="AndJoinThemWithASpecialClip"><![CDATA[]]></item>
+	      <item key="StartAgain"><![CDATA[Start over]]></item>
+	      <item key="SeeTheNecklaceCollection"><![CDATA[Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros. Vel leo. Sed fringilla porta ligula egestas tincidunt. Nullam risus magna, ornare vitae varius eget. Praesent eget neque eu.]]></item>
+	      <item key="ANecklaceWithANewDimension"><![CDATA[A Necklace with a new dimension]]></item>
+	      <item key="NewBraceletsAndCharms"><![CDATA[New Bracelets and charms]]></item>
+	      <item key="CompleteYourLookWithCharmsAndBracelets"><![CDATA[Vel leo. Sed fringilla porta ligula egestas tincidunt. Nullam risus magna, ornare vitae varius eget. Praesent eget neque eu eros interdum malesuada vel leo.]]></item>
+	      <item key="xxNecklaces"><![CDATA[xx NECKLACES]]></item>
+	      <item key="EnterAWorldOfElegance"><![CDATA[Grab the chains with your mouse. Collect up to 6 chains and put a special clip on them!]]></item>
+	      <item key="WhenYourDesignIsComplete"><![CDATA[WHENEVER YOU want to move on, click to add a clip to the chains or start over]]></item>
+	      <item key="Clips"><![CDATA[Clips]]></item>
+	      <item key="AddAClip"><![CDATA[Add a clip]]></item>
+	      <item key="AddAClipToNecklaces"><![CDATA[Add a clip to the necklaces]]></item>
+	      <item key="BuyTheNecklaces"><![CDATA[Buy The Necklaces]]></item>
+	      <item key="BuyTheNecklacesBody"><![CDATA[Vel leo. Sed fringilla porta ligula egestas tincidunt. Nullam risus magna, ornare vitae varius eget.]]></item>
+	      <item key="NewNecklaces"><![CDATA[New Necklaces]]></item>
+	      <item key="FashionShow"><![CDATA[Fashion Show]]></item>
+   	 </item>
+	</texts>
+</campaign>

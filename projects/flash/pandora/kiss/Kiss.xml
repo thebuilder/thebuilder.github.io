@@ -1,0 +1,70 @@
+<campaign>
+	<country currency="DKK" decimalseparator="," thousandsseparator="." ecom="True" devicefont="true" country="en-GB"/>
+
+	<siteurls>
+		<siteurl key="productcatalog" url="Catalog.xml" />
+		<siteurl key="dictionary" url="http://assets.pandora.net/en-us/global/dictionary" />
+		<siteurl key="showyourlove" url="http://www.pandora.net/" />
+		<siteurl key="pandoraclub" url="http://www.pandora.net/en-gb/pandora-club" />
+		<siteurl key="valentinescollection" url="http://www.pandora.net/" />
+	</siteurls>
+	
+	<assets>
+		<LoaderMax name="assets" load="true" prependURLs="">
+			<SWFLoader name="font" url="assets/DefaultFonts.swf"
+				estimatedBytes="220000" nocache="false"/>
+			<SWFLoader name="font_bickham" url="assets/Bickham.swf"
+				estimatedBytes="200000" />
+			<DataLoader name="css" url="assets/kiss_styles.css" format="text"
+				estimatedBytes="15000"  nocache="false"/>
+		</LoaderMax>
+	</assets>
+
+	<texts>
+		<item key="Campaigns">
+			<item key="AddToWishlist"><![CDATA[Føj til ønskeseddel]]></item>
+			<item key="AddToBag"><![CDATA[Tilføj til kurv]]></item>
+			<item key="NotSoldOnline"><![CDATA[Not sold online]]></item>
+			<item key="Done"><![CDATA[Done]]></item>
+
+			<item key="Cancel"><![CDATA[Cancel]]></item>
+			<item key="Save"><![CDATA[Save]]></item>
+
+			<item key="YourName"><![CDATA[Your Name]]></item>
+			<item key="FriendsName"><![CDATA[Friends Name]]></item>
+			<item key="Name"><![CDATA[Name]]></item>
+			<item key="AcceptPrivacy"><![CDATA[Accept the <a href="http://www.pandora.net" target="_blank">privacy agreement</a>]]></item>
+			<item key="TermsAndConditions"><![CDATA[<a href="/sitecore/content/Consumer/pandora-company/terms" target="_blank">TERMS AND CONDITIONS</a>]]></item>
+			
+			<item key="LetYourLips"><![CDATA[Let your lips do the talking. Show your sweetheart what's on your wishlist.]]></item>
+			<item key="UploadPicture"><![CDATA[Upload picture]]></item>
+			<item key="UseFacebookPicture"><![CDATA[Use Facebook picture]]></item>
+			<item key="EnterName"><![CDATA[Enter name]]></item>
+			<item key="RecipentsName"><![CDATA[Reciepents name]]></item>
+			
+			<item key="Email"><![CDATA[Email]]></item>
+			<item key="SendEmail"><![CDATA[Send Email]]></item>
+			<item key="From"><![CDATA[From]]></item>
+			<item key="To"><![CDATA[To]]></item>
+			<item key="LeaveANote"><![CDATA[LeaveANote]]></item>
+
+			<item key="WhatDoYouWantToDo"><![CDATA[What do you want to do]]></item>
+			<item key="PostToYourWall"><![CDATA[Post to your wall]]></item>
+			<item key="PostToFriendsWall"><![CDATA[Post to friends wall]]></item>
+			<item key="PandoraOnFacebook"><![CDATA[Pandora på Facebook]]></item>
+			<item key="SelectAFriend"><![CDATA[Select a friend]]></item>
+			<item key="EnterFriendName"><![CDATA[Enter friend name]]></item>
+			
+			<item key="ShowYourLove"><![CDATA[Show your love]]></item>
+			<item key="FindingThePerfectGift"><![CDATA[Finding the perfect gift for her has never been this easy. Create your custom card and give her the promise of Pandora!]]></item>
+			<item key="ClickHere"><![CDATA[Click here]]></item>
+
+			<item key="YourKissWasSent"><![CDATA[Your kiss was sent!]]></item>
+			<item key="SendAnother"><![CDATA[Send another?]]></item>
+			
+			<item key="YourKiss"><![CDATA[Your kiss]]></item>
+			
+			<item key="WishlistItemsAttached"><![CDATA[##COUNT## wishlist items attached]]></item>
+		</item>
+	</texts>
+</campaign>

@@ -1,0 +1,114 @@
+/*
+	VALID CSS ATTRIBUTES
+	
+	All attributes are properties of TextLayoutFormat. (http://help.adobe.com/en_US/Flex/4.0/langref/flashx/textLayout/formats/TextLayoutFormat.html)
+		
+		alignmentBaseline (ascent, descent, ideographicBottom, ideographicCenter, ideographicTop, roman, useDominantBaseline, or inherit)
+	 	backgroundAlpha (0 to 1, or inherit)
+	 	backgroundColor (transparent, hex eg. #0 to #FFFFFF, uint eg. 0x0 to 0xFFFFFF, or inherit)
+	 	baselineShift (subscript, superscript, -1000 to 1000, -1000% to 1000%, or inherit)
+	 	blockProgression (rl, tb, or inherit)
+	 	breakOpportunity (all, any, auto, none, or inherit)
+	 	cffHinting (horizontalStem, none, or inherit)
+	 	color (hex eg. #0 to #FFFFFF, uint eg. 0x0 to 0xFFFFFF, or inherit)
+	 	columnCount (1 to 50, auto, or inherit)
+	 	columnGap (0 to 1000, or inherit)
+	 	columnWidth (0 to 8000, auto, or inherit)
+	 	digitCase (default, lining, oldStyle, or inherit)
+	 	digitWidth (default, proportional, tabular, or inherit)
+	 	direction (ltr, rtl, or inherit)
+	 	dominantBaseline (auto, ascent, descent, ideographicBottom, ideographicCenter, ideographicTop, roman, useDominantBaseline, or inherit)
+	 	firstBaselineOffset (0 to 1000, ascent, auto, lineHeight, or inherit)
+	 	fontFamily (The name of the font to use, or a comma-separated list of font names)
+	 	fontLookup (device, embeddedCFF, or inherit)
+	 	fontSize (1 to 720, or inherit)
+	 	fontStyle (normal, italic, or inherit)
+	 	fontWeight (normal, bold, or inherit)
+	 	justificationRule (space, eastAsian, auto, or inherit)
+	 	justificationStyle (pushOutOnly, pushInKinsoku, prioritizeLeastAdjustment, auto, or inherit)
+	 	kerning (on, off, auto, or inherit)
+	 	leadingModel (romanUp, ideographicTopUp, ideographicTopDown, ideographicCenterUp, ideographicCenterDown, auto, ascentDescentUp, or inherit)
+	 	ligatureLevel (uncommon, none, minimum, exotic, common, or inherit)
+	 	lineBreak (explicit, toFit, or inherit)
+	 	lineHeight (-720 to 720, -1000% to 1000%, or inherit)
+	 	lineThrough (true, false, or inherit)
+	 	locale (Standard locale identifiers as described in Unicode Technical Standard #35, RTFM)
+	 	paddingBottom (0 to 1000, or inherit)
+	 	paddingLeft (0 to 1000, or inherit)
+	 	paddingRight (0 to 1000, or inherit)
+	 	paddingTop (0 to 1000, or inherit)
+	 	paragraphEndIndent (0 to 1000, or inherit)
+	 	paragraphSpaceAfter (0 to 1000, or inherit)
+	 	paragraphSpaceBefore (0 to 1000, or inherit)
+	 	paragraphStartIndent (0 to 1000, or inherit)
+	 	renderingMode (normal, cff, or inherit)
+	 	tabStops (RTFM for this one!)
+	 	textAlign (center, end, justify, left, right, start, or inherit)
+	 	textAlignLast (center, end, justify, left, right, start, or inherit)
+	 	textAlpha (0 to 1, or inherit)
+	 	textDecoration (none, underline, or inherit)
+	 	textIndent (-1000 to 1000, or inherit)
+	 	textJustify (distribute, interWord, or inherit)
+	 	textRotation (rotate0, rotate90, rotate180, rotate270, auto, or inherit)
+	 	trackingLeft (-100 to 100, -100% to 100%, or inherit)
+	 	trackingRight (-100 to 100, -100% to 100%, or inherit)
+	 	typographicCase (uppercase, lowercaseToSmallCaps, lowercase, default, capsToSmallCaps, or inherit)
+	 	verticalAlign (top, middle, justify, bottom, or inherit)
+	 	whiteSpaceCollapse (preserve, collapse, or inherit)
+*/
+
+.center {textAlign:center}
+.right{textAlign:right}
+.middle {verticalAlign:middle}
+.bottom {verticalAlign:bottom}
+.uppercase {typographicCase: uppercase}
+.underline  {textDecoration:underline}
+
+.iconButtonPadding {paddingLeft:4; paddingRight:0; paddingTop:2; paddingBottom:2}
+.redesignPadding {paddingLeft:12; paddingRight:12; paddingTop:5; paddingBottom:4}
+
+.primaryButton {renderingMode:cff; color: #FFFFFF; fontSize: 13; fontFamily: Optima, _sans; textAlign:center; verticalAlign:middle;}
+.facebookButton {renderingMode:cff; color: #FFFFFF; fontSize: 14; fontFamily: Optima, _sans; textAlign:center; verticalAlign:middle;}
+.primaryLightButton {renderingMode:cff; color: #2B1D3D; fontSize: 13; fontFamily: Optima, _sans; textAlign:center; verticalAlign:middle;}
+.iconButton {renderingMode:cff; color: #464048; fontSize: 11; fontFamily: PalatinoBold, _sans; fontWeight:bold; textAlign:center; verticalAlign:middle;}
+.ecomButton {renderingMode:cff; color: #FFFFFF; fontSize: 13; fontFamily: OptimaBold, _sans; fontWeight:bold; textAlign:center; verticalAlign:middle;}
+.button {renderingMode:cff; color: #4e4e4e; fontSize: 13; fontFamily: OptimaBold, _sans; fontWeight:bold; textAlign:center; verticalAlign:middle;}
+.blackButton {renderingMode:cff; color: #FFFFFF; fontSize: 13; fontFamily: OptimaBold, _sans; fontWeight:bold; textAlign:center; verticalAlign:middle;}
+.checkBoxLabel {renderingMode:cff; color: #838383; fontSize: 13; fontFamily: Palatino, _sans;}
+.textInput {renderingMode:cff; color: #1e1b24; fontSize: 14; fontFamily: Palatino, _sans;}
+.textPrompt {renderingMode:cff; color: #1e1b24; fontSize: 14; fontFamily: Palatino, _sans;}
+.htmlTextInput {renderingMode:cff; color: #1c161e; fontSize: 13; fontFamily: Palatino, _sans;}
+.htmlTextPrompt {renderingMode:cff; color: #838383; fontSize: 13; fontFamily: Palatino, _sans;}
+
+.noiseLabel {renderingMode:cff; color: #1e1c1d; fontSize: 14; fontFamily: Optima, _sans;}
+
+.nameLabel {renderingMode:cff; color: #FFFFFF; fontSize: 10; fontFamily: PalatinoBold, _sans; fontWeight:bold; trackingLeft: -1; }
+.charmPrice {renderingMode:cff; color: #464048; fontSize: 12; fontFamily: Palatino, _sans; textAlign:center; }
+.charmItemNumber {renderingMode:cff; color: #f2eef3; fontSize: 12; fontFamily: Lucida, _sans; textAlign:center; textAlpha:0.3;}
+.charmMessage {renderingMode:cff; color: #FFFFFF; fontSize: 14; fontFamily: Palatino, _sans;  textAlpha:0.8;}
+.charmFrom {renderingMode:cff; color: #FFFFFF; fontSize: 22; fontFamily: AnnieBTN, _sans;}
+.inputLabel {renderingMode:cff; color: #f2eef3; fontSize: 13; fontFamily: Palatino, _sans;}
+
+.starTitle {renderingMode:cff; color: #FFFFFF; fontSize: 17; fontFamily: Optima, _sans; textAlign:center; }
+.starSubTitle {renderingMode:cff; color: #FFFFFF; fontSize: 13; fontFamily: Palatino, _sans; textAlign:center; textAlpha:0.6;}
+.starArrowLabel {renderingMode:cff; color: #FFFFFF; fontSize: 13; fontFamily: Optima, _sans; }
+
+.dedicateYourStar{renderingMode:cff; color: #FFFFFF; fontSize: 13; fontFamily: OptimaBold, _sans; fontWeight:bold; textAlign:center; }
+.starInstructions {renderingMode:cff; color: #cdc9c9; fontSize: 18; fontFamily: OptimaBold, _sans; fontWeight:bold; }
+
+.sharedMessageHeader {renderingMode:cff; color: #ecebeb; fontSize: 18; fontFamily: OptimaBold, _sans; fontWeight:bold; }
+.sharedMessageFree {renderingMode:cff; color: #f8f8f8; fontSize: 14.5; fontFamily: OptimaBold, _sans; fontWeight:bold; }
+.sharedMessageBody {renderingMode:cff; color: #FFFFFF; fontSize: 13; fontFamily: Palatino, _sans;}
+
+.universeHeader {renderingMode:cff; color: #FFFFFF; fontSize: 56; fontFamily: Optima, _sans;}
+.universeSubtitle {renderingMode:cff; color: #FFFFFF; fontSize: 16; fontFamily: Palatino, _sans;  textAlpha:0.6;}
+.universeBody {renderingMode:cff; color: #FFFFFF; fontSize: 13; fontFamily: Palatino, _sans;  textAlpha:0.6;}
+.leftTout {renderingMode:cff; color: #e2e2e4; fontSize: 15; fontFamily: Optima, _sans; paddingLeft:20; paddingRight:20; paddingTop:12; paddingBottom:12}
+.rightTout {renderingMode:cff; color: #303035; fontSize: 15; fontFamily: Optima, _sans; paddingLeft:20; paddingRight:20; paddingTop:12; paddingBottom:12}
+.necklacesHeader {renderingMode:cff; color: #FFFFFF; fontSize: 30; fontFamily: Optima, _sans;}
+.necklacesBody {renderingMode:cff; color: #FFFFFF; fontSize: 14; fontFamily: Palatino, _sans;  textAlpha:0.6;}
+
+/*Share Flow */
+.shareBoxTitle{renderingMode:cff; color: #1c161e; fontSize: 18; fontFamily: Optima, _sans; }
+.shareBoxNote {renderingMode:cff; color: #838383; fontSize: 12; fontFamily: Palatino, _sans;}
+.friendRendere{renderingMode:cff; color: #1c161e; fontSize: 14; fontFamily: Optima, _sans; }
