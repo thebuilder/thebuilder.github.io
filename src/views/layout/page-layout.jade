@@ -7,10 +7,12 @@ html(lang="en")
 		meta(name="robots" content="noindex, nofollow")
 		link(rel="stylesheet", type="text/css", href='css/vendor.min.css')
 		link(rel="stylesheet", type="text/css", href='css/app.css')
+		include ../partials/google_analytics.html
 		block head
 	body
 		include ../partials/header
 		block content
+		include ../partials/footer
 
 
 		script(src='js/vendor.min.js')
