@@ -1,5 +1,5 @@
-mixin carousel(id, data)
-  div(id=id class="carousel slide" data-ride="carousel")
+mixin carousel(id, data, maxWidth)
+  div(id=id, class="carousel slide", data-ride="carousel", style=maxWidth ? "max-width:" + maxWidth : "")
     ol.carousel-indicators
       each val, index in data
         li(data-target="#"+id data-slide-to=index, class=index === 0 ? 'active' : '')
