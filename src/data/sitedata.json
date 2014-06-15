@@ -1,0 +1,82 @@
+{
+    "data":{
+        "bearleague": {
+            "name": "Bear League",
+            "teaser": "Creating an online football world",
+            "type": "Flash",
+            "page":"project_bearleague.html",
+            "gallery": [{
+                "title": "Landing page ",
+                "src": "projects/flash/images/bearleague/Bearleague0.jpg",
+                "caption": "The Bear League landing page"
+            },{
+                "title": "Login",
+                "src": "projects/flash/images/bearleague/Bearleague1.jpg"
+            },{
+                "title": "World",
+                "src": "projects/flash/images/bearleague/Bearleague2.jpg",
+                "caption": "Viewing my player card"
+            },{
+                "title": "Game",
+                "src": "projects/flash/images/bearleague/Bearleague3.jpg",
+                "caption": "Viewing my player card"
+            },{
+                "title": "Leaderboard",
+                "src": "projects/flash/images/bearleague/Bearleague4.jpg",
+                "caption": "The leaderboard, ranking you against all the other players"
+            },{
+                "title": "Shop",
+                "src": "projects/flash/images/bearleague/Bearleague5.jpg",
+                "caption": "Inside the store, where you can view the items you can purchase"
+            },{
+                "title": "Map",
+                "src": "projects/flash/images/bearleague/Bearleague6.jpg",
+                "caption": "Map overview, allowing you to travel to the different areas"
+            },{
+                "title": "Home",
+                "src": "projects/flash/images/bearleague/Bearleague7.jpg",
+                "caption": "In my crib, viewing my stuff"
+            }]
+        },
+        "electrolux": {
+            "name": "Electrolux Art Home",
+            "teaser": "When countdowns meet art",
+            "type": "Flash",
+            "page": "project_electrolux.html"
+        },
+        "swatch": {
+            "name": "Swatch",
+            "type": "Flash | AIR",
+            "teaser": "Snap Dance at the MTV",
+            "page": "project_swatch.html",
+            "gallery": [{
+                "title": "Dance",
+                "src": "projects/flash/images/swatch/dance1.jpg"
+            },{
+                "title": "Dance",
+                "src": "projects/flash/images/swatch/dance2.jpg"
+            },{
+                "title": "Dance",
+                "src": "projects/flash/images/swatch/dance3.jpg"
+            },{
+                "title": "Dance",
+                "src": "projects/flash/images/swatch/dance4.jpg"
+            },{
+                "title": "The Dance Booth",
+                "src": "projects/flash/images/swatch/instore.jpg"
+            },{
+                "title": "Victoria Square",
+                "src": "projects/flash/images/swatch/square.jpg",
+                "caption": "It was popular."
+            },{
+                "title": "Victoria Square",
+                "src": "projects/flash/images/swatch/square2.jpg",
+                "caption": "Very popular!"
+            },{
+                "title": "MTV Fan Zone",
+                "src": "projects/flash/images/swatch/mtv.jpg",
+                "caption": "A version was also created and placed in front of the MTV show, allowing a fan to win two tickets."
+            }]
+        }
+    }
+}

@@ -1,4 +1,17 @@
-header
-  .container
-    h1 thebuilder
-    h2 Creative Developer
+header(class="navbar navbar-default", role="navigation")
+  .container-fluid
+    .navbar-header
+      button.navbar-toggle(type="button", data-toggle="collapse", data-target="#menu-collapse")
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a(href="." class="navbar-brand") thebuilder
+    .collapse.navbar-collapse#menu-collapse
+      ul.nav.navbar-nav
+        li.dropdown
+          a.dropdown-toggle(href="#", data-toggle="dropdown") Projects <b class="caret"></b>
+          ul.dropdown-menu
+            each item in data
+              li
+                a(href=item.page)= item.name

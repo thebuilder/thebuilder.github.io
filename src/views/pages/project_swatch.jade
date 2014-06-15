@@ -1,0 +1,22 @@
+extends ../layout/page-layout
+block head
+  title thebuilder | projects | swatch
+block content
+  .container
+    .page-header
+      h1 Swatch
+    section#main_content
+
+      h3 Dance Booth
+      p I got a chance to promote the new Swatch Touch watch at MTV EMA 2011 in Belfast.
+      iframe(src="https://player.vimeo.com/video/35504826?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
+
+      h3 Gallery
+      include  ../partials/carousel
+      +carousel("swatch-gallery", data.swatch.gallery)
+
+      h3 Snap Dance Wall
+      p.
+        The Snap Dance Wall would display all the snap dances people recoreded with their iPhone, moving to the beat of Trentemøller.
+        This is the original proof of concept demo. The final version that launched on swatch.com was very similar to this, very a few additions that allowed you to view and share each indiviual snap dance.
+      a.btn.btn-primary(href="../../../projects/flash/swatch", target="_blank") Proof of Concept demo

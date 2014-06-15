@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="user-scalable=false, width=device-width">
     <meta name="robots" content="noindex, nofollow">
-    <link rel="stylesheet" type="text/css" href="css/vendor.min.css">
+    <!--link(rel="stylesheet", type="text/css", href='css/vendor.min.css')-->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/app.css"><script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -19,29 +20,52 @@
     <title>thebuilder</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <h1>thebuilder</h1>
-        <h2>Creative Developer</h2>
+    <header role="navigation" class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" data-toggle="collapse" data-target="#menu-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="." class="navbar-brand">thebuilder</a>
+        </div>
+        <div id="menu-collapse" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Projects <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="project_bearleague.html">Bear League</a></li>
+                <li><a href="project_electrolux.html">Electrolux Art Home</a></li>
+                <li><a href="project_swatch.html">Swatch</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <div class="container">
       <section id="main_content">
-        <h2>Welcome to GitHub Pages</h2>
-        <ul>
-          <li><a href="flash.html">Flash Projects</a></li>
-        </ul>
+        <div class="page-header">
+          <h1>Projects</h1>
+        </div>
+        <div class="list-group"><a href="project_bearleague.html" class="list-group-item">
+            <h4 class="list-group-item-heading">Bear League<small> Flash</small></h4>
+            <p class="list-group-item-text"></p>
+            <p class="list-group-item-text">Creating an online football world</p></a><a href="project_electrolux.html" class="list-group-item">
+            <h4 class="list-group-item-heading">Electrolux Art Home<small> Flash</small></h4>
+            <p class="list-group-item-text"></p>
+            <p class="list-group-item-text">When countdowns meet art</p></a><a href="project_swatch.html" class="list-group-item">
+            <h4 class="list-group-item-heading">Swatch<small> Flash | AIR</small></h4>
+            <p class="list-group-item-text"></p>
+            <p class="list-group-item-text">Snap Dance at the MTV</p></a>
+        </div>
       </section>
     </div>
-    <footer>
-      <hr>
-      <div class="container">
-        <ul>
-          <li><a href="https://www.linkedin.com/profile/view?id=13146747" target="_blank">LinkedIn profile</a></li>
-        </ul>
-        <ul>
-          <li><a href="https://github.com/thebuilder/" target="_blank">View on Github</a></li>
-        </ul>
+    <footer class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a href="https://www.linkedin.com/profile/view?id=13146747"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://twitter.com/teh_builder"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://github.com/thebuilder/"><i class="fa fa-github"></i></a></li>
+          </ul>
+          <p class="navbar-text">2014 © Daniel Schmidt</p>
+        </div>
       </div>
     </footer>
     <script src="js/vendor.min.js"></script>

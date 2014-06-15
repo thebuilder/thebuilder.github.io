@@ -1,0 +1,15 @@
+mixin carousel(id, data)
+  div(id=id class="carousel slide" data-ride="carousel")
+    ol.carousel-indicators
+      each val, index in data
+        li(data-target="#"+id data-slide-to=index, class=index === 0 ? 'active' : '')
+    .carousel-inner
+      each val, index in data
+        .item(class=index === 0 ? 'active' : '')
+            img(src=val.src alt=val.title)
+            if val.caption
+              .carousel-caption= val.caption
+    a(class="left carousel-control" href="#"+id data-slide="prev")
+      span(class="icon-prev fa fa-chevron-left")
+    a(class="right carousel-control" href="#"+id data-slide="next")
+      span(class="icon-next fa fa-chevron-right")

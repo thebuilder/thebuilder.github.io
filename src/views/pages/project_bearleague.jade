@@ -1,0 +1,31 @@
+extends ../layout/page-layout
+block head
+  title thebuilder | projects | bear league
+block content
+  .container
+    .page-header
+      h1 Bear League
+    section#main_content
+      h3 The Project
+      p.
+        The Bear League project was an attempt to create a large online universe to compete with the likes of Penquin Club.
+        You had your own bear avatar that could run around in the world and meet other players. You could play varius minigames to earn coins and fame on the leaderboards.
+        Today the project has sadly been shut down, and all that remains is a few screenshots and videos.
+      h3 My Role
+      p.
+        My focus area was the whole GUI layered on top of the OpenSpace engine. This included menus, profile view, stats, leaderboards, shop, game challenges, help sections etc.
+        I also did a lot of code optimizing, bug hunting and overall polishing.
+
+      h3 Technology and frameworks used
+      ul.list-group
+        li.list-group-item Flash & AS3
+        li.list-group-item TextLayout Framework
+        a.list-group-item(href="http://www.robotlegs.org/") Robotlegs Application Framework
+        a.list-group-item(href="http://www.openspace-engine.com/") OpenSpace Engine
+
+      h3 Video teaser
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/oIXRWrOjb_o?rel=0" frameborder="0" allowfullscreen)
+
+      h3 Gallery from bearleague.com
+      include  ../partials/carousel
+      +carousel("bearleague-gallery", data.bearleague.gallery)

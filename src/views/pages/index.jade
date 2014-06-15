@@ -4,8 +4,14 @@ block head
 block content
   .container
     section#main_content
-      h2 Welcome to GitHub Pages
-      ul
-        li
-          a(href="flash.html") Flash Projects
+      .page-header
+        h1 Projects
+      .list-group
+        each item in data
+          a.list-group-item(href=item.page)
+            h4.list-group-item-heading= item.name
+              small= " " + item.type
+            p.list-group-item-text
+            if item.teaser
+              p.list-group-item-text=item.teaser
 

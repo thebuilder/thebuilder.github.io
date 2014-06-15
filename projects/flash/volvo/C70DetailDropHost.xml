@@ -1,0 +1,19 @@
+<movie requiredflashplugin="10" height="default" width="default">
+<scene id="content">
+  <embeddedMovies>
+    <movie id="main" postingguid="" contenturl="" movieurl="C70DetailDropMain.swf" />
+  </embeddedMovies>
+  <choices>
+    <choice id="Language" type="general">
+      <option selected="true" value="default">Default</option>
+      <option value="chinese">Chinese</option>
+      <option value="cyrillic">Cyrillic</option>
+      <option value="greek">Greek</option>
+      <option value="japanese">Japanese</option>
+      <option value="korean">Korean</option>
+      <option value="taiwan">Taiwan</option>
+      <option value="thai">Thai</option>
+    </choice>
+  </choices>
+</scene>
+</movie>

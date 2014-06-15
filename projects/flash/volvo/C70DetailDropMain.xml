@@ -1,0 +1,35 @@
+<movie requiredflashplugin="10" height="default" width="default">
+  <scene id="content">
+    <texts>
+      <text id="theres_more_to" xmlEditRichText="false">THERE&apos;S MORE TO LIFE THAN A VOLVO.</text>
+      <text id="theres_looking_good" xmlEditRichText="false">THERE&apos;S LOOKING GREAT 365 DAYS A YEAR.</text>
+      <text id="even_when_it" xmlEditRichText="false">EVEN WHEN IT RAINS.</text>
+      <text id="thats_why_the" xmlEditRichText="false">THAT&apos;S WHY THE NEW C70 IS THE ONLY CONVERTIBLE</text>
+      <text id="that_looks_good" xmlEditRichText="false">THAT LOOKS AS BEAUTIFUL AS A COUPE.</text>
+      <text id="wipe_screen_btn" xmlEditRichText="false">WIPE SCREEN</text>
+      <text id="drag" xmlEditRichText="false">DRAG</text>      
+      <text id="to_explore" xmlEditRichText="false">TO EXPLORE</text>
+      <text id="frontgrille" xmlEditRichText="false">NEW GRILLE</text>
+      <text id="frontgrille_pa" xmlEditRichText="false">A more elegant grille, enlarged Iron Mark and larger air intake emphasises the new C70’s more confident stance.</text>
+      <text id="headlights" xmlEditRichText="false">NEW HEADLAMPS</text>
+      <text id="headlights_pa" xmlEditRichText="false">The new angled headlamps are elegantly swept back to dramatically enhance the new C70’s sophisticated good looks.</text>
+      <text id="foglamps" xmlEditRichText="false">NEW FOGLAMPS</text>
+      <text id="foglamps_pa" xmlEditRichText="false">The modernised foglamp décore reveals traces of the S60 Concept Car, while blending seamlessly with the car’s natural elegance.</text>
+      <text id="retractable_roof" xmlEditRichText="false">3-PART ROOF</text>
+      <text id="retractable_roof_pa" xmlEditRichText="false">The retractable 3-part roof smoothly transforms an elegant coupe into a sporty convertible in less than 30 seconds.</text>
+      <text id="body_color" xmlEditRichText="false">NEW COLOUR</text>
+      <text id="body_color_pa" xmlEditRichText="false">The new C70’s dramatic new lines are further enhanced by a seductive new colour: Flamenco Red Metallic.</text>
+      <text id="rear_taillights" xmlEditRichText="false">NEW REAR LIGHTS</text>
+      <text id="rear_taillights_pa" xmlEditRichText="false">Exclusive high-tech LED lamps elegantly blend into the oval framing the new C70’s rear panel.</text>
+      <text id="learn_more_frontgrille_link" xmlEditRichText="false">http://www.volvocars.com</text>
+      <text id="learn_more_headlights_link" xmlEditRichText="false">http://www.volvocars.com</text>
+      <text id="learn_more_foglamps_link" xmlEditRichText="false">http://www.volvocars.com</text>
+      <text id="learn_more_retractable_roof_link" xmlEditRichText="false">http://www.volvocars.com</text>
+      <text id="learn_more_body_color_link" xmlEditRichText="false">http://www.volvocars.com</text>
+      <text id="learn_more_rear_taillights_link" xmlEditRichText="false">http://www.volvocars.com</text>
+      <text id="learn_more_txt" xmlEditRichText="false">LEARN MORE</text>
+      <text id="learn_more_exterior_design" xmlEditRichText="false">LEARN MORE ABOUT THE EXTERIOR DESIGN</text>
+      <text id="learn_exterior_design_link" xmlEditRichText="false">http://www.volvocars.com</text>
+    </texts>
+  </scene>
+</movie>

@@ -24,7 +24,7 @@ module.exports = {
     //Entry files
     mainLess: 'app.less',
     mainJs: 'app.js',
-    jadeFiles: 'views/pages/*.jade',
+    jadeFiles: 'views/pages/**/*.jade',
 
     //Runtime vars. These are used by tasks.
     isReleaseBuild: false
