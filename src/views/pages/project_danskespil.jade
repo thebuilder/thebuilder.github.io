@@ -1,0 +1,32 @@
+extends ../layout/page-layout
+block head
+  title thebuilder | projects | danske spil
+block content
+  script(type="text/javascript", src="js/swfobject.js")
+  script(type="text/javascript").
+    var params = {};
+    params.menu = "false";
+    params.quality = "high";
+    params.allowscriptaccess = "always";
+    params.allowNetworking = "all";
+    swfobject.embedSWF("projects/flash/danskespil/300x250.swf", "content", "300", "250", "10.0.0", "expressInstall.swf", {}, params, {});
+
+  script(type="text/javascript").
+    var params = {};
+    params.menu = "false";
+    params.quality = "high";
+    params.allowscriptaccess = "always";
+    params.allowNetworking = "all";
+    swfobject.embedSWF("projects/flash/danskespil/300x250_lyn.swf", "content_lyn", "300", "250", "10.0.0", "expressInstall.swf", {}, params, {});
+
+  .container
+    .page-header
+      h1 Danske Spil
+    section#main_content
+      h3 Banners
+      p Over the years i have created a lot banners for Danske Spil. Most are just your everyday flash banner, but one was a bit more...
+      #content
+      p.
+          This banner won a <a href="http://www.creativecircle.dk/da/vindere/arbejde/cca10-4be2c7ed5ffb3" target="_blank">Creative Circle</a>. Pretty awesome for a small banner project!
+          The bugs have some basic AI that makes them move in one direction for a certain distance, or untill they hit something. Afterwards they will turn around and move in a new direction.
+          It has all been animated using Greensocks TweenLite, giving the banner some very tactile feedback. It feels good to poke those bugs!

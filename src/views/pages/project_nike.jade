@@ -1,0 +1,17 @@
+extends ../layout/page-layout
+block head
+  title thebuilder | projects | nike
+block content
+  .container
+    .page-header
+      h1 Nike
+    section#main_content
+      h3 Nike Women - Here I Am
+      p The Here I Am campaign was a community site for girls, allowing them to share their passion.
+
+      include  ../partials/carousel
+      +carousel("nike-gallery", data.nike.gallery)
+
+      h3 Nike EMEA Store
+      p Some of the first work i did when i started at Framfab was maintaining the Nike Store Flash site. A massive webstore created in AS2.
+      img(src="projects/flash/nike/store.jpg")

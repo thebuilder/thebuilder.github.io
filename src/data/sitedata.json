@@ -38,11 +38,48 @@
                 "caption": "In my crib, viewing my stuff"
             }]
         },
+        "danskespil": {
+            "name": "Danske Spil",
+            "teaser": "Banners, banners and banners",
+            "type": "Flash",
+            "page": "project_danskespil.html"
+        },
         "electrolux": {
-            "name": "Electrolux Art Home",
+            "name": "Electrolux",
             "teaser": "When countdowns meet art",
             "type": "Flash",
             "page": "project_electrolux.html"
+        },
+        "nike": {
+            "name": "Nike",
+            "teaser": "Always impressive flash campaigns",
+            "type": "Flash",
+            "page": "project_nike.html",
+            "gallery": [{
+                "title": "Here I Am",
+                "src": "projects/flash/nike/nw_hereiam1.jpg"
+            },{
+                "title": "Here I Am",
+                "src": "projects/flash/nike/nw_hereiam2.jpg"
+            },{
+                "title": "Here I Am",
+                "src": "projects/flash/nike/nw_hereiam3.jpg"
+            },{
+                "title": "Here I Am",
+                "src": "projects/flash/nike/nw_hereiam4.jpg"
+            }]
+        },
+        "oticon": {
+            "name": "Oticon",
+            "teaser": "Hearing Aid counseling tools",
+            "type": "AIR",
+            "page": "project_oticon.html"
+        },
+        "pandora": {
+            "name": "Pandora",
+            "teaser": "Interactive and social campaigns",
+            "type": "Flash",
+            "page": "project_pandora.html"
         },
         "swatch": {
             "name": "Swatch",
@@ -78,5 +115,7 @@
                 "caption": "A version was also created and placed in front of the MTV show, allowing a fan to win two tickets."
             }]
         }
+
+
     }
 }

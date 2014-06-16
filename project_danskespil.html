@@ -17,7 +17,7 @@
 	ga('send', 'pageview');
 
 </script>
-    <title>thebuilder</title>
+    <title>thebuilder | projects | danske spil</title>
   </head>
   <body>
     <header role="navigation" class="navbar navbar-default">
@@ -42,34 +42,38 @@
         </div>
       </div>
     </header>
+    <script type="text/javascript" src="js/swfobject.js"></script>
+    <script type="text/javascript">
+      var params = {};
+      params.menu = "false";
+      params.quality = "high";
+      params.allowscriptaccess = "always";
+      params.allowNetworking = "all";
+      swfobject.embedSWF("projects/flash/danskespil/300x250.swf", "content", "300", "250", "10.0.0", "expressInstall.swf", {}, params, {});
+      
+    </script>
+    <script type="text/javascript">
+      var params = {};
+      params.menu = "false";
+      params.quality = "high";
+      params.allowscriptaccess = "always";
+      params.allowNetworking = "all";
+      swfobject.embedSWF("projects/flash/danskespil/300x250_lyn.swf", "content_lyn", "300", "250", "10.0.0", "expressInstall.swf", {}, params, {});
+      
+    </script>
     <div class="container">
+      <div class="page-header">
+        <h1>Danske Spil</h1>
+      </div>
       <section id="main_content">
-        <div class="page-header">
-          <h1>Clients</h1>
-        </div>
-        <div class="list-group"><a href="project_bearleague.html" class="list-group-item">
-            <h4 class="list-group-item-heading">Bear League<small> Flash</small></h4>
-            <p class="list-group-item-text"></p>
-            <p class="list-group-item-text">Creating an online football world</p></a><a href="project_danskespil.html" class="list-group-item">
-            <h4 class="list-group-item-heading">Danske Spil<small> Flash</small></h4>
-            <p class="list-group-item-text"></p>
-            <p class="list-group-item-text">Banners, banners and banners</p></a><a href="project_electrolux.html" class="list-group-item">
-            <h4 class="list-group-item-heading">Electrolux<small> Flash</small></h4>
-            <p class="list-group-item-text"></p>
-            <p class="list-group-item-text">When countdowns meet art</p></a><a href="project_nike.html" class="list-group-item">
-            <h4 class="list-group-item-heading">Nike<small> Flash</small></h4>
-            <p class="list-group-item-text"></p>
-            <p class="list-group-item-text">Always impressive flash campaigns</p></a><a href="project_oticon.html" class="list-group-item">
-            <h4 class="list-group-item-heading">Oticon<small> AIR</small></h4>
-            <p class="list-group-item-text"></p>
-            <p class="list-group-item-text">Hearing Aid counseling tools</p></a><a href="project_pandora.html" class="list-group-item">
-            <h4 class="list-group-item-heading">Pandora<small> Flash</small></h4>
-            <p class="list-group-item-text"></p>
-            <p class="list-group-item-text">Interactive and social campaigns</p></a><a href="project_swatch.html" class="list-group-item">
-            <h4 class="list-group-item-heading">Swatch<small> Flash | AIR</small></h4>
-            <p class="list-group-item-text"></p>
-            <p class="list-group-item-text">Snap Dance at the MTV</p></a>
-        </div>
+        <h3>Banners</h3>
+        <p>Over the years i have created a lot banners for Danske Spil. Most are just your everyday flash banner, but one was a bit more...</p>
+        <div id="content"></div>
+        <p>
+          This banner won a <a href="http://www.creativecircle.dk/da/vindere/arbejde/cca10-4be2c7ed5ffb3" target="_blank">Creative Circle</a>. Pretty awesome for a small banner project!
+          The bugs have some basic AI that makes them move in one direction for a certain distance, or untill they hit something. Afterwards they will turn around and move in a new direction.
+          It has all been animated using Greensocks TweenLite, giving the banner some very tactile feedback. It feels good to poke those bugs!
+        </p>
       </section>
     </div>
     <footer class="navbar navbar-default">
