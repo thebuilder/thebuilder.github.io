@@ -50,6 +50,23 @@
             "type": "Flash",
             "page": "project_electrolux.html"
         },
+        "digi": {
+            "name": "Digitaliseringsmessen",
+            "teaser": "Conference hybrid app creation",
+            "type": "HTML | Phonegap",
+            "page": "project_digi.html",
+            "gallery": [{
+                "src": "projects/flash/images/digiapp/digi1.png"
+            },{
+                "src": "projects/flash/images/digiapp/digi2.png"
+            },{
+                "src": "projects/flash/images/digiapp/digi3.png"
+            },{
+                "src": "projects/flash/images/digiapp/digi4.png"
+            },{
+                "src": "projects/flash/images/digiapp/digi5.png"
+            }]
+        },
         "nike": {
             "name": "Nike",
             "teaser": "Always impressive flash campaigns",
@@ -114,8 +131,12 @@
                 "src": "projects/flash/images/swatch/mtv.jpg",
                 "caption": "A version was also created and placed in front of the MTV show, allowing a fan to win two tickets."
             }]
+        },
+        "volvo": {
+            "name": "Volvo",
+            "teaser": "Swedish Car Campaigns",
+            "type": "Flash",
+            "page": "project_volvo.html"
         }
-
-
     }
 }

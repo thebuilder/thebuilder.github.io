@@ -6096,8 +6096,8 @@ footer.navbar {
   font-family: inherit;
 }
 .carousel-control .icon-next {
-  margin-right: -50px;
+  margin-right: -15px;
 }
 .carousel-control .icon-prev {
-  margin-left: -50px;
+  margin-left: -15px;
 }
