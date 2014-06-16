@@ -1,0 +1,32 @@
+[
+	{
+		"id": "1",
+		"name": "Hovedscenen",
+		"description": "",
+		"udstillerId": "238"
+	},
+	{
+		"id": "2",
+		"name": "KMD",
+		"description": "",
+		"udstillerId": "214"
+	},
+	{
+		"id": "3",
+		"name": "Digitaliseringsstyrelsen",
+		"description": "",
+		"udstillerId": "234"
+	},
+	{
+		"id": "4",
+		"name": "In2media",
+		"description": "",
+		"udstillerId": "216"
+	},
+	{
+		"id": "5",
+		"name": "Kombit",
+		"description": "",
+		"udstillerId": "222"
+	}
+]

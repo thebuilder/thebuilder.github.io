@@ -1,0 +1,11 @@
+<div class="green-area" ng-class="{'star-selected': isStarred(exhibit)}" ng-click="toggleStarred(exhibit); $event.stopPropagation() | trackEvent:'Exhibitions':'Star clicked':'{{ exhibit.company }}'">
+</div>
+<div class="content-area">
+	<div class="logo-container" ng-if="exhibit.logo != null">
+		<img ng-src="{{ exhibit.logo }}" class="logo-image"/>
+		<!--<div class="no-image" ng-if="exhibit.logo == null">Intet logo</div>-->
+	</div>
+	<div class="li-text">
+		<h5 class="text-ellipsis">{{ exhibit.company }}</h5>
+	</div>
+</div>

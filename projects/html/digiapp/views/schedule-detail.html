@@ -1,0 +1,27 @@
+<div class="page-header">
+	<div class="content-area back-button" ng-click="goBack(); $event.stopPropagation()">
+		<div class="text-area">
+			<h2>PROGRAM</h2>
+		</div>
+	</div>
+	<div class="green-area" ng-click="toggleStarred(); $event.stopPropagation() | trackEvent:'Schedule':'Star clicked':'{{ scheduleItem.id }}'">
+		<div ng-class="{'star-selected': isStarred()}" class="star"></div>
+	</div>
+</div>
+<div class="page-content overthrow">
+	<section ng-if="hasLogo(exhibit)" class="center">
+		<img ng-src="{{ exhibit.logo }}"/>
+	</section>
+	<section style="margin-bottom: 10px">
+		<span class="body-large-bold">{{ scheduleItem.start }} - {{ scheduleItem.slut }}</span>
+		<span class="body-large">- {{ stageItem.name }}</span>
+	</section>
+	<section>
+		<h3>{{ (scheduleItem.name != scheduleItem.description) &&  scheduleItem.name || "BESKRIVELSE"}}</h3>
+		<p class="body wide-text-area">{{ scheduleItem.description }}</p>
+	</section>
+	<section>
+		<h3>SPEAKER</h3>
+		<p class="body">{{ scheduleItem.speaker }}</p>
+	</section>
+</div>

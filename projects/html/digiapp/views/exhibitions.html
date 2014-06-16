@@ -1,0 +1,19 @@
+<div class="input-container">
+	<input type="search" value="" placeholder="Søg" class="search_input" ng-model="searchText">
+</div>
+<div class="list-container-with-input overthrow" ng-keep-scroll="StateService.exhibitionsScrollY">
+	<ul>
+		<li exhibit-list-item class="list-item"
+			ng-repeat="exhibit in exhibits | orderBy:'company' | filter:searchFilter"
+			ng-click="showDetails(exhibit)"></li>
+	</ul>
+</div>
+
+<div ng-if="(exhibits | filter:searchFilter).length == 0">
+	<!-- No results -->
+	<h2 style="padding: 10px">Ingen resultater</h2>
+</div>
+
+<div class="spinner-container" ng-hide="exhibits != null">
+	<div class="spinner"></div>
+</div>

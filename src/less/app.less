@@ -7,6 +7,15 @@ footer.navbar {
   margin-bottom: 0;
 }
 
+.phone-container {
+  width: 320px;
+  height: 568px;
+  box-sizing: content-box;
+  -webkit-box-shadow: 0 10px 10px;
+  -moz-box-shadow: 0 10px 10px;
+  box-shadow: 0 10px 10px;
+}
+
 .top-margin {
   margin-top: 20px;
 }
@@ -17,6 +26,13 @@ footer.navbar {
 }
 
 .carousel-control {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+
   .icon-next, .icon-prev {
     font-size: 100px;
     margin-top: -50px;

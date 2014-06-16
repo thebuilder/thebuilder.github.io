@@ -7,5 +7,20 @@ block content
       h1 Digitaliseringsmessen'13
     section#main_content
       p.
-      include  ../partials/carousel
-      +carousel("digi-gallery", data.digi.gallery, "320px")
+        The Digitaliseringsmessen project was my first real HTML project in a long time, so i went a bit nuts and used a whole bunch of different frameworks.
+        The end result is a super smooth html hybrid app, built in angularJS.
+
+      h3 Technology and frameworks used
+      ul.list-group
+        li.list-group-item HTML
+        li.list-group-item LESS
+        li.list-group-item TypeScript
+        li.list-group-item Phonegap
+        li.list-group-item AngularJS
+        li.list-group-item Grunt
+
+      h2 Embedded demo
+      .phone-container
+        iframe(src="projects/html/digiapp/index.html", frameborder="0", width="320", height="568")
+      p.top-margin
+        a.btn.btn-primary(href="https://itunes.apple.com/dk/app/digitaliseringsmessen-13/id696530294", target="_blank") App Store download

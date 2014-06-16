@@ -56,15 +56,15 @@
             "type": "HTML | Phonegap",
             "page": "project_digi.html",
             "gallery": [{
-                "src": "projects/flash/images/digiapp/digi1.png"
+                "src": "projects/html/images/digiapp/digi1.png"
             },{
-                "src": "projects/flash/images/digiapp/digi2.png"
+                "src": "projects/html/images/digiapp/digi2.png"
             },{
-                "src": "projects/flash/images/digiapp/digi3.png"
+                "src": "projects/html/images/digiapp/digi3.png"
             },{
-                "src": "projects/flash/images/digiapp/digi4.png"
+                "src": "projects/html/images/digiapp/digi4.png"
             },{
-                "src": "projects/flash/images/digiapp/digi5.png"
+                "src": "projects/html/images/digiapp/digi5.png"
             }]
         },
         "nike": {

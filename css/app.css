@@ -6082,12 +6082,28 @@ footer.navbar {
   margin-top: 40px;
   margin-bottom: 0;
 }
+.phone-container {
+  width: 320px;
+  height: 568px;
+  box-sizing: content-box;
+  -webkit-box-shadow: 0 10px 10px;
+  -moz-box-shadow: 0 10px 10px;
+  box-shadow: 0 10px 10px;
+}
 .top-margin {
   margin-top: 20px;
 }
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 20px;
+}
+.carousel-control {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 .carousel-control .icon-next,
 .carousel-control .icon-prev {

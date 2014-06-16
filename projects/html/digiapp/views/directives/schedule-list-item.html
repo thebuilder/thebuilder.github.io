@@ -1,0 +1,13 @@
+<div class="green-area" ng-class="{'star-selected': isStarred(item)}" ng-click="toggleStarred(item); $event.stopPropagation() | trackEvent:'Schedule':'Star clicked':'{{ item.id }}'">
+</div>
+<div class="content-area">
+	<div class="li-text">
+		<div style="margin-bottom: 5px">
+			<span class="time">{{ item.start }} - {{ item.slut }}</span>
+			<div class="map-pin"></div>
+			<span class="stage">{{ getStageName(item) }}</span>
+		</div>
+		<h5 style="margin-bottom: 5px;" class="text-ellipsis">{{ item.name}}</h5>
+		<p class="body text-ellipsis">{{ item.speaker | split:['.', ',']}}</p>
+	</div>
+</div>

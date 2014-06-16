@@ -1,0 +1,35 @@
+<div id="myschedule">
+	<div class="tabbar" >
+		<div class="button" ng-class="{'button-selected': subpage == 'schedule'}" ng-click="changeTab('schedule')">PROGRAM</div>
+		<div class="button" ng-class="{'button-selected': subpage == 'exhibits'}" ng-click="changeTab('exhibits')">UDSTILLERE</div>
+	</div>
+
+	<div ng-if="subpage == 'schedule'" class="list-container subpage overthrow" ng-switch="schedule.length" ng-keep-scroll="StateService.starredScheduleScrollY">
+		<ul ng-switch-default>
+			<li schedule-list-item
+				ng-repeat="item in schedule | orderBy:'start'"
+				ng-click="showDetails(item)"></li>
+		</ul>
+		<div ng-switch-when="0" class="emptyschedule">
+			<div class="content">
+				<p class="body-large">Klik på stjernen ved et event for at tilføje det til "MIT DIGM13"</p>
+				<img ng-src="img/large_star_empty.png" width="76px" height="76px"
+					 ng-click="changePath('/schedule')"/>
+			</div>
+		</div>
+	</div>
+	<div ng-if="subpage == 'exhibits'" class="list-container subpage overthrow" ng-switch="exhibits.length" ng-keep-scroll="StateService.starredExhibitionsScrollY">
+		<ul ng-switch-default>
+			<li exhibit-list-item
+				ng-repeat="exhibit in exhibits"
+				ng-click="showDetails(exhibit)"></li>
+		</ul>
+		<div ng-switch-when="0" class="emptyschedule">
+			<div class="content">
+				<p class="body-large">Klik på stjernen ved en udstiller for at tilføje det til "MIT DIGM13"</p>
+				<img ng-src="img/large_star_empty.png" width="76px" height="76px"
+						ng-click="changePath('/exhibitions')"/>
+			</div>
+		</div>
+	</div>
+</div>

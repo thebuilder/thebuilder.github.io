@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org">
+    <head>
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+		<meta name="msapplication-tap-highlight" content="no">
+
+		<!-- Homescreen Webapp suppport on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="apple-touch-icon-precomposed" href="res/icon/ios/icon-57.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="res/icon/ios/icon-72.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="res/icon/ios/icon-57-2x.png">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="res/icon/ios/icon-72-2x.png">
+
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="css/main.css">
+		<script src="libs/ng/angular.min.js"></script>
+		<script src="libs/ng/angular-sanitize.min.js"></script>
+		<script src="libs/ng/angular-route.min.js"></script>
+		<script src="libs/ng/angular-animate.min.js"></script>
+		<script src="libs/ng/angular-touch.min.js"></script>
+		<script src="libs/angular-retina.min.js"></script>
+		<script src="libs/angularWebStorage.js"></script>
+		<script src="libs/truncate.js"></script>
+		<script src="libs/imagesloaded.min.js"></script>
+		<script src="libs/TweenMax.min.js"></script>
+		<script src="libs/fastclick.js"></script>
+		<script src="libs/overthrow.js"></script>
+		<script src="libs/iscroll-zoom-min.js"></script>
+		<script type="text/javascript">
+			if (document.location.protocol != "file:") {
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-43485473-1']);
+				_gaq.push(['_setDomainName', 'digitaliseringsmessen.dk']);
+				_gaq.push(['_setAllowLinker', true]);
+				_gaq.push(['_trackPageview']);
+
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+			} else {
+//				var phonegap = document.createElement('script'); phonegap.type = 'text/javascript';
+//				phonegap.src = ("phonegap.js");
+//				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(phonegap, s);
+			}
+
+
+		</script>
+        <title>DIGM13</title>
+    </head>
+    <body>
+		<digi-header>
+			<!-- Header Directive using "views/header.html" and HeaderController-->
+		</digi-header>
+		<div id="content" ng-view="" class="ng-view-container">
+			<!-- Current content view. Controlled by angular -->
+		</div>
+
+		<digi-menu>
+			<!-- Menu Directive using "views/footer.html" and FooterController -->
+		</digi-menu>
+
+		<script src="phonegap.js"></script>
+		<script src="GAPlugin.js"></script>
+		<script src="js/scripts.min.js"></script>
+
+		<script type="text/javascript">
+			digi.init(); //Start the app
+			FastClick.attach(document.body); //Attach FastClick to document body
+		</script>
+    </body>
+</html>

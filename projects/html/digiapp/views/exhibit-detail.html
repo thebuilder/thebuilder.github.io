@@ -1,0 +1,27 @@
+<div class="page-header">
+	<div class="content-area back-button" ng-click="goBack(); $event.stopPropagation()">
+		<div class="text-area">
+			<h2>UDSTILLERE</h2>
+		</div>
+	</div>
+	<div class="green-area" ng-click="toggleStarred(); $event.stopPropagation() | trackEvent:'Exhibitions':'Star clicked':'{{ exhibit.company }}'">
+		<div ng-class="{'star-selected': isStarred()}" class="star"></div>
+	</div>
+</div>
+<div class="page-content overthrow">
+	<section ng-if="hasLogo(exhibit)" class="center">
+		<img ng-src="{{ exhibit.logo }}"/>
+	</section>
+	<section>
+		<h3>Placering</h3>
+		<p class="body"><a ng-click="changePath('/map')">{{ exhibit.stand }}</a></p>
+	</section>
+	<section ng-if="exhibit.description.length">
+		<h3>OM {{ exhibit.company }}</h3>
+		<p ng-bind-html="exhibit.description" class="body wide-text-area" ng-if="exhibit.description"/>
+	</section>
+	<section ng-if="exhibit.homepage">
+		<h3>WEBSITE</h3>
+		<a target="_system" class="large" ng-click="openPage(getUrl(exhibit))">{{ exhibit.homepage }}</a>
+	</section>
+</div>

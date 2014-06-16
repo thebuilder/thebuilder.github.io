@@ -1,0 +1,16 @@
+<div class="page-header">Nyheder</div>
+<div  class="list-container">
+	<ul class="list">
+		<li ng-repeat="item in news" ng-click="showDetails(item)">
+			<div class="inner">
+				<div class="li-green-side"></div>
+				<div class="li-text">
+					<h4 class="li-head">{{ item.name }}</h4>
+					<div class="li-sub">{{ item.date }}</div>
+					<div class="li-sub" ng-bind-html-unsafe="item.body"></div>
+				</div>
+				<div class="list_arrow"></div>
+			</div>
+		</li>
+	</ul>
+</div>

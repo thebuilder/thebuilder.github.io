@@ -1,0 +1,380 @@
+[
+	{
+		"id": "1",
+		"stageId": "1",
+		"Start": "10.00",
+		"Slut": "10.10",
+		"name": "VELKOMST",
+		"speaker": "J\u00f8rgen Kristensen Rasch. Formand for Kit@ og Digitaliseringschef i Egedal Kommune",
+		"description": ""
+	},
+	{
+		"id": "2",
+		"stageId": "1",
+		"Start": "10.10",
+		"Slut": "10.25",
+		"name": "IT I FOLKESKOLEN",
+		"speaker": "Jane Findahl Formand for KL\u0092s udvalg for b\u00f8rn og kultur",
+		"description": "Byr\u00e5dsmedlem i Fredericia KommuneFolkeskolen st\u00e5r p\u00e5 it-fronten over for store udfordringer i de kommende \u00e5r. Nye udviklingsprojekter skal bl.a. skabe viden om, hvordan it kan underst\u00f8tte elevernes l\u00e6ring og dermed frig\u00f8re mere tid til undervisning. Dette sker med afs\u00e6t i den f\u00e6llesoffentlige digitaliseringsstrategi."
+	},
+	{
+		"id": "3",
+		"stageId": "1",
+		"Start": "10.40",
+		"Slut": "11.00",
+		"name": "\"M\u00d8D BORGERNE, HVOR DE ER\"",
+		"speaker": "Tim Frank Andersen. Partner & Bestyrelsesformand, In2media",
+		"description": "Teknologien er der. Borgerne er der. Og PC'en er som device overhalet af tablets og smartphones. Tim Frank Andersen giver inspiration til, hvordan de offentlige serviceydelser kan udvikles gennem brug af mobile teknologier, og hvordan sociale medier kan skabe v\u00e6rdi for b\u00e5de kommunen og borgerne."
+	},
+	{
+		"id": "4",
+		"stageId": "1",
+		"Start": "11.20",
+		"Slut": "11.40",
+		"name": "DIGITALISERINGSSTYRELSEN",
+		"speaker": "Lars Frelle-Petersen. Direkt\u00f8r, Digitaliseringsstyrelsen",
+		"description": "Den f\u00e6llesoffentlige digitaliseringsstrategi har sat en r\u00e6kke ambiti\u00f8se m\u00e5l for tiden frem til 2015, og der er dermed et st\u00e6rkt politisk mandat til at digitalisere det offentlige Danmark. Halvvejs gennem strategiens levetid er den offentlige service allerede blevet meget mere digital, men de st\u00f8rste milep\u00e6le udest\u00e5r endnu, fx at alle virksomheder og borgere skal kunne modtage Digital Post samt kampagner i forbindelse med kommende b\u00f8lgeplaner for digital selvbetjening. Samtidig udvikler teknologien sig i h\u00f8j fart, og borgernes og virksomhedernes forventninger til den offentlige digitale service stiger tilsvarende."
+	},
+	{
+		"id": "5",
+		"stageId": "1",
+		"Start": "12.00",
+		"Slut": "12.20",
+		"name": "BRUG TEKNOLOGI TIL AT SIKRE VELF\u00c6RDEN",
+		"speaker": "Ole Kjeldsen. Teknologidirekt\u00f8r, Microsoft Danmark",
+		"description": "Danmark er et af verdens mest digitaliserede samfund, og danskerne er vant til at bruge teknologi. De fleste har adgang til bredb\u00e5nd, og inden for f\u00e5 \u00e5r vil en 100 MB-forbindelse til hjemmet v\u00e6re helt almindeligt. Det \u00e5bner for helt nye muligheder \u0096 ogs\u00e5 inden for de offentlige systemer og betjening af borgerne."
+	},
+	{
+		"id": "6",
+		"stageId": "1",
+		"Start": "13.20",
+		"Slut": "13.40",
+		"name": "STATUS FOR KOMBITS MONOPOLBRUD",
+		"speaker": "Peter Egelund, Projektdirekt\u00f8r og Morten Hass, Chefkonsulent, KOMBIT",
+		"description": "Der er fuld fart p\u00e5 udbudsarbejdet i KOMBIT, hvor bl.a. en r\u00e6kke af de projekter, der skal konkurrenceuds\u00e6tte KMD\u0092s monopolomr\u00e5de, er ved at v\u00e6re klar til udbud. Opl\u00e6gget har fokus p\u00e5 KOMBITs arbejde med monopolbruddet, herunder samspillet og arbejdsfordelingen mellem KOMBIT, kommunerne og leverand\u00f8rerne."
+	},
+	{
+		"id": "7",
+		"stageId": "1",
+		"Start": "14.00",
+		"Slut": "14.20",
+		"name": "HVORDAN KAN DIGITALISERING UNDERST\u00d8TTE DEN NYE FOLKESKOLE?",
+		"speaker": "Mathias Bruun. Omr\u00e5dedirekt\u00f8r, KMD",
+		"description": "Med en ambiti\u00f8s folkeskolereform og \u00e6ndrede arbejdsvilk\u00e5r for l\u00e6rerne er det afg\u00f8rende, at l\u00e6rerne f\u00e5r digital st\u00f8tte til at n\u00e5 de h\u00f8je m\u00e5l. Mathias Bruun pr\u00e6senterer KMD\u0092s bud p\u00e5, hvordan digitaliseringen kan bidrage til at g\u00f8re en god folkeskole bedre."
+	},
+	{
+		"id": "8",
+		"stageId": "1",
+		"Start": "14.40",
+		"Slut": "15.00",
+		"name": "ONE SIZE FITS ALL ER YT",
+		"speaker": "S\u00f8ren Jensen, Direkt\u00f8r, Atea",
+		"description": "Den tid, hvor kommuner og stat kunne k\u00f8be de samme pc\u0092ere til alle medarbejderne er forbi. De ansatte vil have digitalt arbejdsudstyr, der matcher deres individuelle behov. Gevinsten ved at bel\u00f8nne medarbejderne er til at tage og f\u00f8le p\u00e5 \u0096 ogs\u00e5 uden \u00f8konomien l\u00f8ber l\u00f8bsk."
+	},
+	{
+		"id": "9",
+		"stageId": "1",
+		"Start": "15.20",
+		"Slut": "15.40",
+		"name": "JANE USSING",
+		"speaker": "Jane Ussing Formand for Borgerservice Danmark. Borgerservicechef i Vejen Kommune",
+		"description": ""
+	},
+	{
+		"id": "10",
+		"stageId": "2",
+		"Start": "09.40",
+		"Slut": "10.00",
+		"name": "MOBILITY I DEN KOMMUNALE KERNEFORRETNING",
+		"speaker": "Robert Ditlev Hansen, KMD.",
+		"description": "H\u00f8r hvordan I skaber sikre mobile arbejdspladser, der g\u00f8r arbejdsdagen nemmere for den enkelte medarbejder \u0096 og samtidig skaber v\u00e6rdi for kommunen."
+	},
+	{
+		"id": "11",
+		"stageId": "2",
+		"Start": "10.00",
+		"Slut": "10.25",
+		"name": "MULIGHEDER MED MOBIL TALEGENKENDELSE",
+		"speaker": "Kim Tidemann J\u00f8rgensen, KMD.",
+		"description": "Med mobil talegenkendelse vil de k\u00f8rende medarbejdere hurtigt og effektivt kunne registrere informationer, mens de er p\u00e5 farten. Dette er til gavn for borgerne, der med udgangspunkt i aktuelle data vil opleve \u00f8get kvalitet i servicen. KMD pr\u00e6senterer perspektiverne med mobil talegenkendelse, et marked, som KMD forventer, vil tage fart i 2014."
+	},
+	{
+		"id": "12",
+		"stageId": "2",
+		"Start": "10.30",
+		"Slut": "10.50",
+		"name": "EFFEKTIV M\u00d8DEKULTUR",
+		"speaker": "Christoffer Hellmann, KMD.",
+		"description": "Kommunerne har de seneste \u00e5r med stor succes flyttet borgerne over p\u00e5 de digitale borgerservicekanaler \u0096 men hvad med kommunens egne ansatte? Der afholdes hver dag mange m\u00f8der i kommunerne, og antallet er i v\u00e6kst. KMD Analyse har set p\u00e5, om man med fordel kan digitalisere m\u00f8destrukturen p\u00e5 r\u00e5dhuset og giver et bud p\u00e5, hvor stort potentialet er. Indl\u00e6gget suppleres med erfaringer fra en kommune, der anvender Lync til at underst\u00f8tte deres digitale kommunikation."
+	},
+	{
+		"id": "13",
+		"stageId": "2",
+		"Start": "10.55",
+		"Slut": "11.15",
+		"name": "FREMTIDENS BORGERSERVICE \u0096 KOMMUNEN I LOMMEN?",
+		"speaker": "Morten Kvist Thomsen, KMD.",
+		"description": "H\u00f8r KMD\u0092s bud p\u00e5 hvordan it kan underst\u00f8tte fremtidens borgerservice. Med afs\u00e6t i borger empowerment og underst\u00f8ttelse af kommunens medarbejdere, vil det v\u00e6re muligt at skabe en effektiv borgerservice."
+	},
+	{
+		"id": "14",
+		"stageId": "2",
+		"Start": "11.20",
+		"Slut": "11.40",
+		"name": "DIGITALISERING AF DEN EFFEKTIVE BESK\u00c6FTIGELSESINDSATS",
+		"speaker": "Jakob Volmer, KMD.",
+		"description": "H\u00f8r KMD\u0092s bud p\u00e5 hvordan ny it-underst\u00f8ttelse af den resultatorienterede besk\u00e6ftigelsesindsats kan give viden om, hvilke initiativer der er n\u00f8dvendige for at skabe jobs, og hvilket samarbejde det kr\u00e6ver mellem jobcentre, borgere og virksomheder."
+	},
+	{
+		"id": "15",
+		"stageId": "2",
+		"Start": "12.30",
+		"Slut": "12.50",
+		"name": "TELESUNDHED KOMMER - MEN IKKE AF SIG SELV\u0085.",
+		"speaker": "Mads Frederiksen, KMD.",
+		"description": "H\u00f8r om effekten af behandlingsforl\u00f8b med KMD Online omsorg og hvordan borgere hjemmefra kan tage aktivt del i egen sundhed. F\u00e5 ogs\u00e5 KMD\u0092s bud p\u00e5, hvordan telesundhed bliver en mere naturlig del af de tilbud, som kommunerne giver borgerne. Vi giver dig et indblik i KMD\u0092s strategi for telesundhed, der g\u00f8r det muligt for kommunerne at v\u00e6lge \u00e9n samlet platform til alle telesundhedsprojekter \u0096 uafh\u00e6ngigt af leverand\u00f8rvalg."
+	},
+	{
+		"id": "16",
+		"stageId": "2",
+		"Start": "12.55",
+		"Slut": "13.25",
+		"name": "ERFARINGER MED KMD EDUCATION",
+		"speaker": "Bettina Guldager, KMD.",
+		"description": "M\u00f8d en skole, der fort\u00e6ller om deres erfaringer med brug af KMD Education. Chefkonsulent Bettina Guldager fra KMD uddyber, hvilke m\u00e5l og gevinster der er muligt at realisere med KMD Education."
+	},
+	{
+		"id": "17",
+		"stageId": "2",
+		"Start": "13.25",
+		"Slut": "13.45",
+		"name": "HAR DU STYR P\u00c5 SKOLEOMR\u00c5DET?",
+		"speaker": "Jeppe Svendsen, KMD.",
+		"description": "\u0094Min Skole\u0094 er et styringsv\u00e6rkt\u00f8j til skoleledere, der g\u00f8r det nemt at f\u00f8lge op p\u00e5 \u00f8konomi, aktiviteter, interne processer samt resultater og effekter af skolens indsats. H\u00f8r en skolechef fort\u00e6lle om deres erfaringer med at anvende \u0094Min Skole\u0094 som"
+	},
+	{
+		"id": "18",
+		"stageId": "3",
+		"Start": "11.00",
+		"Slut": "11.15",
+		"name": "VELKOMST OG LEVERANCEPLAN FOR DIGITALISERINGSSTRATEGIEN",
+		"speaker": "Udviklingschef Tom B\u00f8geskov, Digitaliseringsstyrelsen",
+		"description": "Digitaliseringsstyrelsen har publiceret en samlet tidsplan over leverancer,som er relevante i forbindelse med overgangen til digital kommunikation. M\u00e5let er at give myndigheder, leverand\u00f8rer mv. et overblik over v\u00e6sentlige milep\u00e6le i forbindelse med over"
+	},
+	{
+		"id": "19",
+		"stageId": "3",
+		"Start": "11.15",
+		"Slut": "11.40",
+		"name": "NEMLOG-IN OG FULDMAGT: STATUS OG MULIGHEDER",
+		"speaker": "Programleder Henrik Robert Langer, Digitaliseringsstyrelsen",
+		"description": "H\u00f8r om status og muligheder med NemLog-in og fuldmagtsl\u00f8sningen, som blev lanceret ultimo august. H\u00f8r om muligheder og erfaringer fra de myndigheder, der allerede har p\u00e5begyndt ibrugtagningen og f\u00e5 input til, hvordan du kan bruge fuldmagtsl\u00f8sningen."
+	},
+	{
+		"id": "20",
+		"stageId": "3",
+		"Start": "11.45",
+		"Slut": "12.10",
+		"name": "DIGITAL POST TIL VIRKSOMHEDER: HVORDAN BLIVER VI KLAR?",
+		"speaker": "Chefkonsulent Martin Dohn og repr\u00e6sentant fra Erhvervsstyrelsen",
+		"description": "Fra 1. november 2013 bliver det obligatorisk for virksomheder i Danmark at kunne modtage Digital Post fra offentlige myndigheder. Digitaliseringsstyrelsen og Erhvervsstyrelsen g\u00f8r status over myndighedernes og virksomhedernes parathed og redeg\u00f8r for processen frem mod 1. november. Herunder b\u00e5de den tekniske implementering af Digital Post hos myndighederne og den igangv\u00e6rende kampagneindsats rettet mod virksomhederne."
+	},
+	{
+		"id": "21",
+		"stageId": "3",
+		"Start": "12.40",
+		"Slut": "13.05",
+		"name": "BORGER.DK: BORGERNES INDGANG TIL EN GOD DIGITAL OPLEVELSE",
+		"speaker": "Kontorchef Helle Junge Nielsen, Digitaliseringsstyrelsen",
+		"description": "Borger.dk har som vision at skabe en ensartet, tilg\u00e6ngelig og brugervenlig portal, hvor flere og flere betjener sig selv. Det stiller krav om en portal, som har \u00e5bent 24-7, l\u00f8bende opdaterer information samt tilbyder relevante og brugervenlige selvbetjeningsl\u00f8sninger. Med hele Danmark som m\u00e5lgruppe, skal der samtidig v\u00e6re adgang til hj\u00e6lp, n\u00e5r borgeren har brug for det. Det stiller krav om samarbejde med mange myndigheds- og l\u00f8sningsejere. H\u00f8r om planerne for borger.dk og myndighedernes muligheder."
+	},
+	{
+		"id": "22",
+		"stageId": "3",
+		"Start": "13.10",
+		"Slut": "13.35",
+		"name": "MOBIL NEMID: HVOR ER VI OG HVAD KOMMER?",
+		"speaker": "Chefkonsulent Nikolas Triantafyllidis, Digitaliseringsstyrelsen",
+		"description": "Et nyt NemID-log-in er p\u00e5 vej. Det nye log-in er ikke afh\u00e6ngigt af Java, og dermed er der \u00e5bnet for log-in p\u00e5 mobile platforme - smartphones og tablets. Kom og h\u00f8r om planerne for det nye log-in og teknikken bag."
+	},
+	{
+		"id": "23",
+		"stageId": "3",
+		"Start": "13.40",
+		"Slut": "14.05",
+		"name": "SELVBETJENING OG BORGER.DK I EN MOBIL KONTEKST: STRATEGI, PLAN OG M\u00c5L",
+		"speaker": "Specialkonsulent Martin H\u00f8egh Mortensen",
+		"description": "Smartphones og tablets er p\u00e5 kort tid blevet allemandseje. Med introduktionen af mobil NemID kan borgerne tilg\u00e5 selvbetjeningsl\u00f8sningerne p\u00e5 borger.dk, men hverken portalen eller selvbetjeningsl\u00f8sningerne er i nuv\u00e6rende form optimeret til sm\u00e5 ber\u00f8ringsf\u00f8lsomme sk\u00e6rme. H\u00f8r hvordan de udfordringer skal tackles i forhold til borger.dk og den enkelte selvbetjeningsl\u00f8sning."
+	},
+	{
+		"id": "24",
+		"stageId": "3",
+		"Start": "14.15",
+		"Slut": "14.40",
+		"name": "NY STRATEGI FOR DIGITAL VELF\u00c6RD - MULIGHEDER OG UDFORDRINGER",
+		"speaker": "Kontorchef Nina Husfeldt Clasen",
+		"description": "En ny f\u00e6llesoffentlig strategi for digital velf\u00e6rd er p\u00e5 trapperne. Strategien skal v\u00e6re med til at fastl\u00e6gge retningen for den offentlige sektors arbejde med m\u00e5lrettet at indf\u00f8re digitale og teknologiske l\u00f8sninger p\u00e5 sundhedsom- r\u00e5det, socialomr\u00e5det og undervisningsomr\u00e5det. H\u00f8r om arbejdet med strategien og bliv klogere p\u00e5, hvor den offentlige sektor vil s\u00e6tte ind frem mod 2020."
+	},
+	{
+		"id": "25",
+		"stageId": "3",
+		"Start": "15.00",
+		"Slut": "15.25",
+		"name": "BEDRE GRUNDDATA \u0096 BETYDNING FOR MYNDIGHEDERNE",
+		"speaker": "Kontorchef Jens Krieger R\u00f8yen",
+		"description": "Grunddataprogrammet er nu etableret og den f\u00e6lles datafordeler i udbud. H\u00f8r om vejen til bedre grunddata, samt muligheder og betydning for den enkelte myndighed og leverand\u00f8r."
+	},
+	{
+		"id": "26",
+		"stageId": "4",
+		"Start": "10.45",
+		"Slut": "11.00",
+		"name": "STATUS P\u00c5 UDVIKLING AF MOBIL NEMID",
+		"speaker": "Charlotte Jacoby, Digitaliseringsstyrelsen",
+		"description": "STATUS P\u00c5 UDVIKLING AF MOBIL NEMID"
+	},
+	{
+		"id": "27",
+		"stageId": "4",
+		"Start": "11.10",
+		"Slut": "11.30",
+		"name": "MOBILE L\u00d8SNINGER \u0096 FREMTIDENS KANAL",
+		"speaker": "Jacob Poulsby Andersen, KL",
+		"description": "MOBILE L\u00d8SNINGER \u0096 FREMTIDENS KANAL"
+	},
+	{
+		"id": "28",
+		"stageId": "4",
+		"Start": "11.45",
+		"Slut": "12.15",
+		"name": "OFFENTLIGE SERVICES FRA MOBILE PLATFORME",
+		"speaker": "Thomas Sofienberg, In2media",
+		"description": "BORGERNE TILG\u00c5R I H\u00d8JERE GRAD DE OFFENTLIGE SERVICES FRA MOBILE PLATFORME \u0096 HVORDAN H\u00c5NDTERER I DET, OG HVORDAN KAN I IND-T\u00c6NKE DE MOBILE PLATFORME I BORGERSERVICEN?"
+	},
+	{
+		"id": "29",
+		"stageId": "4",
+		"Start": "12.30",
+		"Slut": "12.45",
+		"name": "CASE: HJEMMEPLEJEN ANNO 2015",
+		"speaker": "Thomas Sofienberg, In2media",
+		"description": "CASE: HJEMMEPLEJEN ANNO 2015 \u0096 SE, HVORDAN DET KAN G\u00d8RES, HVORDAN ARBEJDSGANGENE I HJEMMEPLEJEN EFFEKTIVT KAN UNDERST\u00d8TTES GENNEM BRUG AF MOBILE PLATFORME \u0096 TIL V\u00c6RDI FOR ANSATTE OG BORGERE."
+	},
+	{
+		"id": "30",
+		"stageId": "4",
+		"Start": "13.00",
+		"Slut": "13.20",
+		"name": "CASE: MINBY - VEJEN KOMMUNES MOBILAPP \u0096 HVAD F\u00c5R VI UD AF DET?",
+		"speaker": "Simon Simonsen, Vejen Kommune",
+		"description": "CASE: MINBY - VEJEN KOMMUNES MOBILAPP \u0096 HVAD F\u00c5R VI UD AF DET?"
+	},
+	{
+		"id": "31",
+		"stageId": "4",
+		"Start": "13.30",
+		"Slut": "14.00",
+		"name": "S\u00c5DAN F\u00c5R I INDT\u00c6NKT DE MOBILE OG SOCIALE MULIGHEDER I BORGERSERVICEN OG FORANKRET I ORGANISATIONEN",
+		"speaker": "Asger H\u00f8jen Danielsen, Ramb\u00f8ll og Michael Bach Petersen, In2media",
+		"description": "S\u00c5DAN F\u00c5R I INDT\u00c6NKT DE MOBILE OG SOCIALE MULIGHEDER I BORGERSERVICEN OG FORANKRET I ORGANISATIONEN"
+	},
+	{
+		"id": "32",
+		"stageId": "4",
+		"Start": "14.15",
+		"Slut": "14.45",
+		"name": "DERFOR SKAL I IKKE V\u00c6RE BANGE FOR SOCIAL TILSTEDEV\u00c6RELSE",
+		"speaker": "Peter Svarre, In2media",
+		"description": "DERFOR SKAL I IKKE V\u00c6RE BANGE FOR SOCIAL TILSTEDEV\u00c6RELSE"
+	},
+	{
+		"id": "33",
+		"stageId": "4",
+		"Start": "15.00",
+		"Slut": "15.20",
+		"name": "SOCIAL MEDIA PLAYBOOK \u0096 EN GUIDE TIL SOCIAL TILSTEDEV\u00c6RELSE",
+		"speaker": "Mads Toft, In2media",
+		"description": "SOCIAL MEDIA PLAYBOOK \u0096 EN GUIDE TIL SOCIAL TILSTEDEV\u00c6RELSE"
+	},
+	{
+		"id": "34",
+		"stageId": "4",
+		"Start": "15.30",
+		"Slut": "15.50",
+		"name": "CASE: KOLDING KOMMUNES BRUG AF FACE- BOOK \u0096 HVAD F\u00c5R VI UD AF DET?",
+		"speaker": "Kristina Ladager, Kolding Kommune",
+		"description": "CASE: KOLDING KOMMUNES BRUG AF FACE- BOOK \u0096 HVAD F\u00c5R VI UD AF DET?"
+	},
+	{
+		"id": "35",
+		"stageId": "5",
+		"Start": "10.30",
+		"Slut": "11.00",
+		"name": "KOMBITS PROJEKTER FAVNER BREDT ",
+		"speaker": "Thomas Rysgaard Christiansen og Peter Egelund",
+		"description": "Konkurrenceuds\u00e6ttelsen af KMD\u0092s monopolsystemer er i gang og en r\u00e6kkeaf KOMBITs projekter er ved at v\u00e6re klar til udbud. KOMBIT besk\u00e6ftiger sig naturligvis ogs\u00e5 med en lang r\u00e6kke andre it-projekter, hvor vi bl.a. i samarbejde med leverand\u00f8rerne og arbejder med videreudvikling af DUBU og FLIS \u0096 og Byg og Milj\u00f8 g\u00e5r snart i luften med en l\u00f8sning."
+	},
+	{
+		"id": "36",
+		"stageId": "5",
+		"Start": "11.10",
+		"Slut": "11.35",
+		"name": "ORGANISATORISK FORANKRING I KOMMUNERNE",
+		"speaker": "Flemming Engstr\u00f8m og Nils Rosted",
+		"description": "Konkurrenceuds\u00e6ttelsen af KMD\u0092s fagsystemer afstedkommer et paradigmeskifte i det kommunale it-marked, som vil f\u00e5 indflydelse p\u00e5 kommunernes lokale it-organisering. Kommunerne st\u00e5r s\u00e5ledes overfor en udfordring, n\u00e5r de mange nye l\u00f8sninger skal implementeres. KOMBITs drejebog for monopolbrud skal st\u00f8tte kommunerne i processen \u0096 og samtidig har KOMBIT etableret en ny specialistfunktion, der skal fokusere p\u00e5 den gode implementering i kommunerne."
+	},
+	{
+		"id": "37",
+		"stageId": "5",
+		"Start": "11.45",
+		"Slut": "12.10",
+		"name": "SAPA \u0096 DET N\u00c6STE SKRIDT",
+		"speaker": "Kenneth M\u00f8ller Johansen",
+		"description": "SAPA er KOMBITs kommende alternativ til KMD Sag og er snart klar til udbudsprocessen. Kom og h\u00f8r, hvilken betydning det har for dig som kommune eller kommunal it-leverand\u00f8r, og hvad der kommer til at ske i de kommende m\u00e5neder."
+	},
+	{
+		"id": "38",
+		"stageId": "5",
+		"Start": "12.20",
+		"Slut": "12.45",
+		"name": "SERVICEPLATFORMEN OG ST\u00d8TTESYSTEMERNE ",
+		"speaker": "Michel Sassene",
+		"description": "St\u00f8ttesystemerne i Rammearkitekturen er n\u00f8dvendige for at konkurrenceuds\u00e6tte monopolsystemerne. De tv\u00e6rg\u00e5ende st\u00f8ttesystemer skal it-underst\u00f8tte f\u00e6lles forretningsservices i kommunen. Sammen med Serviceplatformen, der giver enklere adgang til services med data og funktionalitet, er de en vigtig del af infrastrukturen i kommunernes fremtidige it-landskab."
+	},
+	{
+		"id": "39",
+		"stageId": "5",
+		"Start": "13.35",
+		"Slut": "14.10",
+		"name": "KOMMUNERNES YDELSESSYSTEM I H\u00d8RING",
+		"speaker": "Mikael Bay Skilbreid",
+		"description": "Med Kommunernes Ydelsessystem etablerer KOMBIT en f\u00e6lleskommunal it-underst\u00f8ttelse af kontanthj\u00e6lpsomr\u00e5det som afl\u00f8ser for KMD Aktiv. Projektet er ved at f\u00e6rdigg\u00f8re udbudsmaterialet, som har v\u00e6ret i kommunal h\u00f8ring. H\u00f8r mere om resultatet af h\u00f8ringsprocessen og den kommunale involvering fremover."
+	},
+	{
+		"id": "40",
+		"stageId": "5",
+		"Start": "14.20",
+		"Slut": "14.45",
+		"name": "ARBEJDET MED KOMMUNERNES SYGEDAG- PENGESYSTEM ",
+		"speaker": "Ulrik R\u00f8hl og Mette Schwebs",
+		"description": "Kommunernes Sygedagpengesystem bliver en f\u00e6lleskommunal l\u00f8sning, der kan underst\u00f8tte sagsbehandlingen p\u00e5 sygedagpengeomr\u00e5det og bliver en moderne afl\u00f8ser for KMD Dagpenge. Kom og h\u00f8r om forretningsprocesserne for systemet og ambitionerne med projektet."
+	},
+	{
+		"id": "41",
+		"stageId": "5",
+		"Start": "14.55",
+		"Slut": "15.20",
+		"name": "OBLIGATORISK DIGITAL SELVBETJENING",
+		"speaker": "Vibeke Normann",
+		"description": "Obligatorisk digital selvbetjening stiller krav til, at kommunerne leverer de bedste digitale selvbetjeningsl\u00f8sninger. B\u00f8lge 2 g\u00e5r i luften 1\/12 2013, og B\u00f8lge 3 er en del af \u00d8konomiaftalen for 2014. Vi fort\u00e6ller om b\u00f8lgeplanen og hvordan KL og KOMBIT kan underst\u00f8tte kommunerne med implementeringen af den."
+	},
+	{
+		"id": "42",
+		"stageId": "5",
+		"Start": "15.30",
+		"Slut": "15.55",
+		"name": "FLIS \u0096 FOKUS P\u00c5 DATAVALIDERING",
+		"speaker": "Thomas M\u00f8rk Glintborg",
+		"description": "FLIS samler kommunale data og n\u00f8gletal og skal g\u00f8re det lettere for kommunerne at benchmarke ledelsesinformation. I den nyeste version af FLIS er der arbejdet intensivt med datakvaliteten. Kom og h\u00f8r om videreudviklingen af FLIS og hvordan vi arbejder."
+	}
+]

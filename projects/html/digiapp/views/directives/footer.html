@@ -1,0 +1,12 @@
+<nav id="footer">
+	<div></div>
+	<ul>
+		<li ng-repeat="item in items" ng-click="itemClicked(item)" ng-class="{selected:selectedItem == item}" ng-style="{width:'{{ 100 / items.length }}%'}" >
+			<div class="image-container">
+				<img ng-src="{{ selectedItem == item && item.selectedIconUrl || item.iconUrl }}" width="{{ item.width }}" height="{{ item.height }}"/>
+			</div>
+			<p>{{ item.name }}</p>
+		</li>
+	</ul>
+	<div class="in2logo" ng-click="changePath('/exhibitions/216')"></div>
+</nav>
