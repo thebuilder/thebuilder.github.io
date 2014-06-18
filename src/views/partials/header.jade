@@ -15,3 +15,12 @@ header(class="navbar navbar-default", role="navigation")
             each item in data
               li
                 a(href=item.page)= item.name
+      ul.nav.navbar-nav
+        li.dropdown
+          a.dropdown-toggle(href="#", data-toggle="dropdown") Social <b class="caret"></b>
+          ul.dropdown-menu
+            each contact in contacts
+              li
+                a.icon(href=contact.link, target="_blank")
+                  i(class="fa fa-"+ contact.id)
+                  = contact.title

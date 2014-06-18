@@ -1,0 +1,25 @@
+extends ../layout/page-layout
+block head
+  title thebuilder | tech
+block content
+  .container
+    section#main_content
+      .page-header
+        h1 Tech & Frameworks
+
+      #accordion.panel-group
+        .panel.panel-primary
+          .panel-heading
+            h4.panel-title
+              a(data-toggle="collapse", data-parent="#accordion", href="#collapseJade") JADE
+          #collapseJade.panel-collapse.collapse
+            .panel-body.
+              oh hello there
+
+        .panel.panel-primary
+          .panel-heading
+            h4.panel-title
+              a(data-toggle="collapse", data-parent="#accordion", href="#collapseAssemble") ASSEMBLE.IO
+          #collapseAssemble.panel-collapse.collapse
+            .panel-body.
+              oh hello there

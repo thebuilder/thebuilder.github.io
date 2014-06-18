@@ -6078,6 +6078,9 @@ label,
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
+a.icon i {
+  padding-right: 8px;
+}
 footer.navbar {
   margin-top: 40px;
   margin-bottom: 0;

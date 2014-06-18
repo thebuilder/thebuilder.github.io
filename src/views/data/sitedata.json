@@ -1,4 +1,22 @@
 {
+    "contacts": [{
+        "id": "linkedin",
+        "title": "LinkedIn",
+        "link":"https://www.linkedin.com/profile/view?id=13146747"
+    },{
+        "id": "twitter",
+        "title": "Twitter",
+        "link":"https://twitter.com/teh_builder"
+    },{
+        "id": "github",
+        "title": "Github",
+        "link":"https://github.com/thebuilder/"
+    },{
+        "id": "codepen",
+        "title": "Codepen",
+        "link":"http://codepen.io/The-Builder/"
+    }
+    ],
     "data":{
         "bearleague": {
             "name": "Bear League",

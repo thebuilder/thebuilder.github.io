@@ -8,7 +8,7 @@ gulp.task('watch', function () {
 	watch({glob:config.src + '/' + config.jsDir + '/**', name:"JS", emitOnGlob:false}, ['browserify']);
 	watch({glob:config.src + '/'+ config.lessDir + '/**', name:"LESS", emitOnGlob:false}, ['less']);
 	watch({glob:config.src + '/'+ config.imgDir + '/**', name:"Images", emitOnGlob:false}, ['images']);
-  watch({glob:config.src + '/views/**', name:"JADE", emitOnGlob:false}, ['jade']);
+    watch({glob:config.src + '/views/**', name:"JADE", emitOnGlob:false}, ['jade']);
 	watch({glob:'bower_components/**/{*.js,*.css}', name:"Bower", emitOnGlob:false}, ['bower']);
 	watch({glob:[
         config.src + '/fonts/**',

@@ -2,11 +2,9 @@ footer.navbar.navbar-default
   .container-fluid
     .navbar-right
       ul.nav.navbar-nav
-        li
-          a(href="https://www.linkedin.com/profile/view?id=13146747") <i class="fa fa-linkedin"></i>
-        li
-          a(href="https://twitter.com/teh_builder") <i class="fa fa-twitter"></i>
-        li
-          a(href="https://github.com/thebuilder/") <i class="fa fa-github"></i>
+        -each contact in contacts
+          li
+            a(href=contact.link, title=contact.title, target="_blank")
+              i(class="fa fa-"+ contact.id)
       p.navbar-text 2014 © Daniel Schmidt
 
